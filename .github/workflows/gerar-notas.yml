@@ -26,17 +26,59 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Definir data de referência
+        id: data
+        run: echo "hoje=$(TZ=America/Sao_Paulo date '+%d/%m/%Y')" >> "$GITHUB_OUTPUT"
+
       - name: Gerar notas de alterações
+        id: gerar
         env:
           PRATIC_TOKEN: ${{ secrets.PRATIC_TOKEN }}
           TZ: America/Sao_Paulo
-        run: python scripts/gerar_notas.py
+        run: |
+          python scripts/gerar_notas.py 2>&1 | tee /tmp/saida.txt
+          {
+            echo 'saida<<__EOF__'
+            cat /tmp/saida.txt
+            echo '__EOF__'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Publicar notas no repositório
+        id: publicar
         run: |
           git config user.name  "Pratic Bot"
           git config user.email "bot@praticsite.com.br"
           git add release-notes/
-          git diff --cached --quiet \
-            && echo "ℹ️ Nenhuma alteração para publicar." \
-            || (git commit -m "notas: $(TZ=America/Sao_Paulo date '+%d/%m/%Y')" && git push)
+          if git diff --cached --quiet; then
+            echo "publicado=false" >> "$GITHUB_OUTPUT"
+            echo "ℹ️ Nenhuma alteração para publicar."
+          else
+            git commit -m "notas: $(TZ=America/Sao_Paulo date '+%d/%m/%Y')"
+            git push
+            echo "publicado=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Enviar notificação por e-mail
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_USERNAME }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          to: rodrigocorrea2704@gmail.com
+          from: "Pratic Bot <${{ secrets.GMAIL_USERNAME }}>"
+          subject: "📋 Pratic RH — ${{ steps.data.outputs.hoje }} — ${{ job.status == 'success' && (steps.publicar.outputs.publicado == 'true' && 'Notas publicadas ✅' || 'Sem OSs novas ℹ️') || 'Erro na execução ❌' }}"
+          body: |
+            Execução automática — Gerador de Notas Pratic RH
+            ═══════════════════════════════════════════════
+
+            ${{ steps.gerar.outputs.saida }}
+
+            ───────────────────────────────────────────────
+            Status do job   : ${{ job.status }}
+            Notas publicadas: ${{ steps.publicar.outputs.publicado == 'true' && 'Sim ✅' || 'Não' }}
+
+            Ver execução completa:
+            https://github.com/rodrigocorrea2704/pratic-release-notes/actions
