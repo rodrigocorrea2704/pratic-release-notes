@@ -1,0 +1,42 @@
+name: Gerar Notas de Alterações
+
+on:
+  schedule:
+    # Segunda a sábado às 09:00 horário de Brasília (12:00 UTC)
+    - cron: '0 12 * * 1-6'
+  workflow_dispatch:
+    # Permite rodar manualmente pelo GitHub (útil para testes)
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-notas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gerar notas de alterações
+        env:
+          PRATIC_TOKEN: ${{ secrets.PRATIC_TOKEN }}
+          TZ: America/Sao_Paulo
+        run: python scripts/gerar_notas.py
+
+      - name: Publicar notas no repositório
+        run: |
+          git config user.name  "Pratic Bot"
+          git config user.email "bot@praticsite.com.br"
+          git add release-notes/
+          git diff --cached --quiet \
+            && echo "ℹ️ Nenhuma alteração para publicar." \
+            || (git commit -m "notas: $(TZ=America/Sao_Paulo date '+%d/%m/%Y')" && git push)
