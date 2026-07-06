@@ -153,9 +153,107 @@ def classificar(assunto, texto, itens):
         return "Novo"
     return "Melhoria"
 
+def montar_item(os_item):
+    """Processa uma OS e retorna (item_para_notas_ou_None, motivo_descarte_ou_None)."""
+    assunto = os_item["assunto"]
+    texto   = html_to_text(os_item["texto"])
+    texto   = LEMBRETE_PAT.sub("", texto)
+    has_ok  = bool(OK_PAT.search(texto))
+    numbered = [
+        m for m in NUMBERED_PAT.finditer(texto)
+        if not ANEXO_PAT.match(m.group(0).strip())
+    ]
+
+    # Sem [OK] e sem itens numerados → suporte simples
+    if not has_ok and not numbered:
+        return None, "suporte simples"
+
+    # Itens numerados mas sem [OK] → em desenvolvimento
+    if not has_ok and numbered:
+        return {
+            "serCodDes": os_item["serCodDes"],
+            "oseDat": os_item["oseDat"],
+            "oseCod": os_item["oseCod"],
+            "assunto": assunto,
+            "tipo": "Melhoria",
+            "itens": ["⚠️ Em desenvolvimento..."],
+        }, None
+
+    # Tem [OK] — extrai itens e classifica
+    itens = extrair_itens_ok(texto)
+    tipo  = classificar(assunto, texto, itens)
+
+    if tipo == "Interno":
+        return None, "interno"
+
+    # Fallback: usa o assunto se não extraiu descrição
+    if not itens:
+        itens = [assunto.capitalize()]
+
+    return {
+        "serCodDes": os_item["serCodDes"],
+        "oseDat": os_item["oseDat"],
+        "oseCod": os_item["oseCod"],
+        "assunto": assunto,
+        "tipo": tipo,
+        "itens": itens,
+    }, None
+
+def agrupar_e_ordenar(itens):
+    """Agrupa por serviço e ordena cada grupo por data decrescente (LIFO)."""
+    grupos = defaultdict(list)
+    for item in itens:
+        grupos[item["serCodDes"]].append(item)
+    for k in grupos:
+        grupos[k].sort(
+            key=lambda x: datetime.strptime(x["oseDat"], "%d/%m/%Y"),
+            reverse=True,
+        )
+    return grupos
+
+def renderizar_corpo(grupos):
+    """Gera as linhas do corpo do documento (sem cabeçalho) a partir dos grupos."""
+    linhas = []
+    for svc, items in sorted(grupos.items()):
+        linhas.append(f"🗂️ {svc}")
+        linhas.append("")
+        for item in items:
+            icon = ICONS.get(item["tipo"], "🔧")
+            linhas.append(f'{icon} {item["tipo"]} | OS #{item["oseCod"]} — {item["assunto"]}')
+            linhas.append("")
+            for desc in item["itens"]:
+                linhas.append(desc)
+            linhas.append("")
+    return linhas
+
+def atualizar_latest(ordens, periodo_str, timestamp):
+    """Reconstrói notas_latest.md do zero com TODAS as OSs da janela de
+    DIAS_RETROATIVOS dias — não só as processadas na execução atual."""
+    to_include = []
+    for os_item in ordens:
+        item, _motivo = montar_item(os_item)
+        if item is not None:
+            to_include.append(item)
+
+    linhas = [
+        "📋 Notas de Alterações — Pratic RH / Pratic SIP",
+        f"Últimos {DIAS_RETROATIVOS} dias ({periodo_str})",
+        "",
+        f"Atualizado em: {timestamp}",
+        "",
+        "---",
+        "",
+    ] + renderizar_corpo(agrupar_e_ordenar(to_include))
+
+    RELEASE_DIR.mkdir(parents=True, exist_ok=True)
+    (RELEASE_DIR / "notas_latest.md").write_text("\n".join(linhas), encoding="utf-8")
+
 # ─── API ──────────────────────────────────────────────────────────────────────
 
-DIAS_RETROATIVOS = 7
+# Janela usada tanto para detectar OSs novas (via controle de deduplicação)
+# quanto para o snapshot completo do notas_latest.md — como a API já
+# retorna tudo "a partir de" essa data, uma única consulta serve aos dois.
+DIAS_RETROATIVOS = 15
 
 def consultar_api(token, data_consulta):
     payload = json.dumps({
@@ -221,6 +319,7 @@ def main():
 
     if not ordens:
         print(f"ℹ️  Nenhuma OS encontrada entre {periodo_str}.")
+        atualizar_latest(ordens, periodo_str, timestamp)
         sys.exit(0)
 
     print(f"📦 {len(ordens)} OS(s) retornada(s).")
@@ -230,6 +329,7 @@ def main():
 
     if not novas:
         print(f"ℹ️  Todas as OSs de {periodo_str} já foram processadas anteriormente.")
+        atualizar_latest(ordens, periodo_str, timestamp)
         sys.exit(0)
 
     # Processa cada OS nova
@@ -237,73 +337,20 @@ def main():
     to_include  = []
 
     for os_item in novas:
-        cod     = os_item["oseCod"]
-        assunto = os_item["assunto"]
-        texto   = html_to_text(os_item["texto"])
-        texto   = LEMBRETE_PAT.sub("", texto)
-        has_ok  = bool(OK_PAT.search(texto))
-        numbered = [
-            m for m in NUMBERED_PAT.finditer(texto)
-            if not ANEXO_PAT.match(m.group(0).strip())
-        ]
-
-        # Sem [OK] e sem itens numerados → suporte simples
-        if not has_ok and not numbered:
+        item, motivo = montar_item(os_item)
+        if item is None:
             new_entries.append({
-                "oseCod": cod, "dataProcessamento": timestamp,
-                "incluida": False, "motivo": "suporte simples",
+                "oseCod": os_item["oseCod"], "dataProcessamento": timestamp,
+                "incluida": False, "motivo": motivo,
             })
-            continue
-
-        # Itens numerados mas sem [OK] → em desenvolvimento
-        if not has_ok and numbered:
-            to_include.append({
-                "serCodDes": os_item["serCodDes"],
-                "oseDat": os_item["oseDat"],
-                "oseCod": cod, "assunto": assunto,
-                "tipo": "Melhoria", "itens": ["⚠️ Em desenvolvimento..."],
-            })
+        else:
+            to_include.append(item)
             new_entries.append({
-                "oseCod": cod, "dataProcessamento": timestamp, "incluida": True,
+                "oseCod": os_item["oseCod"], "dataProcessamento": timestamp,
+                "incluida": True,
             })
-            continue
 
-        # Tem [OK] — extrai itens e classifica
-        itens = extrair_itens_ok(texto)
-        tipo  = classificar(assunto, texto, itens)
-
-        if tipo == "Interno":
-            new_entries.append({
-                "oseCod": cod, "dataProcessamento": timestamp,
-                "incluida": False, "motivo": "interno",
-            })
-            continue
-
-        # Fallback: usa o assunto se não extraiu descrição
-        if not itens:
-            itens = [assunto.capitalize()]
-
-        to_include.append({
-            "serCodDes": os_item["serCodDes"],
-            "oseDat": os_item["oseDat"],
-            "oseCod": cod, "assunto": assunto,
-            "tipo": tipo, "itens": itens,
-        })
-        new_entries.append({
-            "oseCod": cod, "dataProcessamento": timestamp, "incluida": True,
-        })
-
-    # Agrupa por serviço e ordena LIFO (mais recente primeiro)
-    groups = defaultdict(list)
-    for item in to_include:
-        groups[item["serCodDes"]].append(item)
-    for k in groups:
-        groups[k].sort(
-            key=lambda x: datetime.strptime(x["oseDat"], "%d/%m/%Y"),
-            reverse=True,
-        )
-
-    # Monta o documento Markdown
+    # Monta o documento Markdown incremental do dia
     nota_path = RELEASE_DIR / f"notas_{data_hoje_arq}.md"
     modo = "a" if nota_path.exists() else "w"
     linhas = []
@@ -319,23 +366,14 @@ def main():
             "",
         ]
 
-    for svc, items in sorted(groups.items()):
-        linhas.append(f"🗂️ {svc}")
-        linhas.append("")
-        for item in items:
-            icon = ICONS.get(item["tipo"], "🔧")
-            linhas.append(f'{icon} {item["tipo"]} | OS #{item["oseCod"]} — {item["assunto"]}')
-            linhas.append("")
-            for desc in item["itens"]:
-                linhas.append(desc)
-            linhas.append("")
+    linhas += renderizar_corpo(agrupar_e_ordenar(to_include))
 
     with nota_path.open(modo, encoding="utf-8") as f:
         f.write("\n".join(linhas))
 
-    # Atualiza notas_latest.md
-    latest_path = RELEASE_DIR / "notas_latest.md"
-    latest_path.write_text(nota_path.read_text("utf-8"), encoding="utf-8")
+    # notas_latest.md — reconstruído do zero com TODAS as OSs da janela,
+    # não só as processadas nesta execução.
+    atualizar_latest(ordens, periodo_str, timestamp)
 
     # Persiste controle de deduplicação
     control["processadas"].extend(new_entries)
