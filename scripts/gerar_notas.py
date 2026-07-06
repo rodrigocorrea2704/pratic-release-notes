@@ -24,27 +24,59 @@ ICONS = {"Novo": "🆕", "Melhoria": "🔧", "Correção": "✅"}
 
 # ─── HTML → texto puro ────────────────────────────────────────────────────────
 
+# Só tags de bloco quebram linha — tags inline (b, font, a, span...) não podem
+# fragmentar uma frase em várias linhas.
+_BLOCK_TAGS = {"p", "div", "br", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6"}
+
 class _TextExtractor(HTMLParser):
     def __init__(self):
         super().__init__()
         self._parts = []
+    def handle_starttag(self, tag, attrs):
+        if tag in _BLOCK_TAGS:
+            self._parts.append("\n")
+    def handle_endtag(self, tag):
+        if tag in _BLOCK_TAGS:
+            self._parts.append("\n")
     def handle_data(self, data):
         self._parts.append(data)
     def get_text(self):
-        return "\n".join(self._parts)
+        return "".join(self._parts)
 
 def html_to_text(html):
     p = _TextExtractor()
     p.feed(html)
     t = p.get_text()
-    t = re.sub(r"[  ]+", " ", t)       # &nbsp; e similar
+    t = t.replace("\xa0", " ")          # &nbsp;
     t = re.sub(r"[ \t]+", " ", t)
-    t = re.sub(r"\n\s*\n+", "\n", t)
+    t = re.sub(r"\n[ \t]*\n+", "\n", t)
     return t.strip()
 
 # ─── Padrões ──────────────────────────────────────────────────────────────────
 
 OK_PAT = re.compile(r"\[\s*OK\s*\]", re.IGNORECASE)
+
+# Texto padrão de instrução ("Indique com o [ OK ] os itens que devem
+# aparecer nas Notas da Versão") contém a marcação [ OK ] apenas como
+# exemplo — não pode ser confundido com um item de fato concluído.
+LEMBRETE_PAT = re.compile(
+    r"indique\s+com\s+o\s*\[\s*ok\s*\][\s\S]{0,120}?vers[aã]o",
+    re.IGNORECASE,
+)
+
+# Linha que é só numeração/referência de print, sem descrição real
+# (ex.: "01 - (print) -", "(print)", "1 e 2 (print)")
+_PRINT_PAT = re.compile(r"\(print[^)]*\)", re.IGNORECASE)
+_ITEM_WORD_PAT = re.compile(r"\bitem\b", re.IGNORECASE)
+_SHORT_TOKEN_PAT = re.compile(r"\b\w{1,2}\b", re.UNICODE)
+_LABEL_CHARS_PAT = re.compile(r"[\d\s\-–.,]")
+
+def _eh_apenas_rotulo(linha):
+    l = _PRINT_PAT.sub("", linha)
+    l = _ITEM_WORD_PAT.sub("", l)
+    l = _SHORT_TOKEN_PAT.sub("", l)
+    l = _LABEL_CHARS_PAT.sub("", l)
+    return l == ""
 
 NUMBERED_PAT = re.compile(r"^\s*(\d{2})\s*[-–]\s*(.+)", re.MULTILINE)
 
@@ -53,10 +85,24 @@ ANEXO_PAT = re.compile(r"^\s*anexo\s*\d", re.IGNORECASE)
 JUNK_PAT = re.compile(
     r"\d+\s*(?:e\s*\d+\s*)?\(print[^)]*\)\s*[-–]?\s*"
     r"|\[Arquivo[^\]]*\]"
-    r"|API\s*->.*"
-    r"|print\s*\d+[^.\n]*",
+    r"|API\s*->.*",
     re.IGNORECASE,
 )
+
+# Rótulo de numeração/print que sobra no início da descrição depois que o
+# texto real já foi isolado (ex.: "01 - (print) - ", "ITEM 2 - Print 04 - ")
+_LEADING_LABEL_PAT = re.compile(
+    r"^(?:item\s*)?\d+\s*[-–]?\s*(?:\(print[^)]*\)\s*[-–]?\s*)?"
+    r"|^print\s*\d+\s*[-–]?\s*",
+    re.IGNORECASE,
+)
+
+def _remover_rotulo_inicial(desc):
+    anterior = None
+    while anterior != desc:
+        anterior = desc
+        desc = _LEADING_LABEL_PAT.sub("", desc, count=1)
+    return desc
 
 # Conteúdo puramente técnico/interno — não vai para as notas
 INTERNO_PAT = re.compile(
@@ -87,10 +133,11 @@ def extrair_itens_ok(texto):
     itens = []
     for chunk in chunks[1:]:
         linhas = [ln.strip(" –-\t") for ln in chunk.split("\n") if ln.strip(" –-\t")]
-        if not linhas:
+        desc = next((ln for ln in linhas if not _eh_apenas_rotulo(ln)), None)
+        if not desc:
             continue
-        desc = linhas[0]
         desc = re.sub(JUNK_PAT, "", desc).strip(" –-\t")
+        desc = _remover_rotulo_inicial(desc).strip(" –-\t")
         if desc and len(desc) > 4:
             itens.append(desc)
     return itens
@@ -134,17 +181,6 @@ def consultar_api(token, data_consulta):
         return []
     return data["ordens"]
 
-def consultar_api_periodo(token, data_inicio, data_fim):
-    """Consulta a API dia a dia entre data_inicio e data_fim (inclusive) e
-    retorna a união das OSs, sem duplicar oseCod."""
-    ordens_por_cod = {}
-    dia = data_inicio
-    while dia <= data_fim:
-        for os_item in consultar_api(token, dia.strftime("%d/%m/%Y")):
-            ordens_por_cod[os_item["oseCod"]] = os_item
-        dia += timedelta(days=1)
-    return list(ordens_por_cod.values())
-
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -175,9 +211,10 @@ def main():
         control = {"processadas": []}
     already = {e["oseCod"] for e in control["processadas"]}
 
-    # Consulta API
+    # Consulta API — dataInicioFinalizacaoOS é "a partir de": uma única
+    # chamada já retorna tudo desde essa data até agora.
     try:
-        ordens = consultar_api_periodo(token, data_inicio, hoje)
+        ordens = consultar_api(token, data_inicio_str)
     except Exception as exc:
         print(f"❌ Erro ao consultar API: {exc}")
         sys.exit(1)
@@ -203,6 +240,7 @@ def main():
         cod     = os_item["oseCod"]
         assunto = os_item["assunto"]
         texto   = html_to_text(os_item["texto"])
+        texto   = LEMBRETE_PAT.sub("", texto)
         has_ok  = bool(OK_PAT.search(texto))
         numbered = [
             m for m in NUMBERED_PAT.finditer(texto)
