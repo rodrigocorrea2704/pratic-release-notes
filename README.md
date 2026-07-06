@@ -23,11 +23,11 @@ Web (PrimeFaces) e Desktop (Java) leem a URL raw abaixo
 
 ## Setup (uma vez só)
 
-### 1. Adicionar o secret `PRATIC_TOKEN`
+### 1. Adicionar o secret `PRATIC_TOKEN_PRATICSITE`
 
 Acesse: **Settings → Secrets and variables → Actions → New repository secret**
 
-- Name: `PRATIC_TOKEN`
+- Name: `PRATIC_TOKEN_PRATICSITE`
 - Secret: _(seu token da API Pratic)_
 
 ### 2. Habilitar o workflow
