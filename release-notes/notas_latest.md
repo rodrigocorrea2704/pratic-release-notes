@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Data de referência: 06/07/2026
+Últimos 15 dias (21/06/2026 a 06/07/2026)
 
-Gerado em: 06/07/2026 11:25
+Atualizado em: 06/07/2026 11:40
 
 ---
 
@@ -39,3 +39,7 @@ Estou fazendo o cálculo da folha, o valor correto do evento 164, precisa ser R$
 
 Funcionário com férias Abono TD - saída dia: 22/06 - no cálculo da folha do mês 06/2026 o valor do evento 279 precisa ser R$ 693,40 (total do empréstimo) porque
 Funcionário com férias Abono TD - saída dia: 22/06 - no cálculo da folha do mês 07/2026 o valor do evento 279 precisa ser R$ 231,13 (ref. a 10 dias),
+
+🔧 Melhoria | OS #19730 — GERAÇÃO S-1210 - RESCISÃO COMPLEMENTAR
+
+Na geração do S-1210 do mês 02/2026 (ID = 6584) quando o sistema encontrar rescisão complementar enviada, não podemos gerar a tag COMPLEMENTO no xml do S-1210.
