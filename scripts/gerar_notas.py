@@ -175,14 +175,7 @@ def consultar_api(token, data_consulta):
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
-        status = resp.status
-        body = resp.read().decode("utf-8")
-        data = json.loads(body)
-
-    print(
-        f"🔎 [debug] HTTP {status} | result={data.get('result')!r} | "
-        f"mensagem={data.get('mensagem')!r} | ordens={len(data.get('ordens') or [])}"
-    )
+        data = json.loads(resp.read().decode("utf-8"))
 
     if data.get("result") != 1 or not data.get("ordens"):
         return []
@@ -195,9 +188,6 @@ def main():
     if not token:
         print("❌ Variável de ambiente PRATIC_TOKEN não definida. Abortando.")
         sys.exit(1)
-    print(f"🔎 [debug] token com {len(token)} caracteres (repr das pontas: {token[:2]!r}...{token[-2:]!r})")
-    if token != token.strip():
-        print("⚠️  [debug] o token tem espaços/quebras de linha nas pontas!")
 
     hoje = date.today()
     if hoje.weekday() == 6:  # domingo = 6
