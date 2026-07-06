@@ -108,6 +108,8 @@ def classificar(assunto, texto, itens):
 
 # ─── API ──────────────────────────────────────────────────────────────────────
 
+DIAS_RETROATIVOS = 7
+
 def consultar_api(token, data_consulta):
     payload = json.dumps({
         "praticServiceValidarEntrada": {
@@ -132,6 +134,17 @@ def consultar_api(token, data_consulta):
         return []
     return data["ordens"]
 
+def consultar_api_periodo(token, data_inicio, data_fim):
+    """Consulta a API dia a dia entre data_inicio e data_fim (inclusive) e
+    retorna a união das OSs, sem duplicar oseCod."""
+    ordens_por_cod = {}
+    dia = data_inicio
+    while dia <= data_fim:
+        for os_item in consultar_api(token, dia.strftime("%d/%m/%Y")):
+            ordens_por_cod[os_item["oseCod"]] = os_item
+        dia += timedelta(days=1)
+    return list(ordens_por_cod.values())
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -145,12 +158,14 @@ def main():
         print("Rotina não executada — domingos são ignorados.")
         sys.exit(0)
 
-    data_consulta  = (hoje - timedelta(days=1)).strftime("%d/%m/%Y")
-    data_hoje_str  = hoje.strftime("%d/%m/%Y")
-    data_hoje_arq  = hoje.strftime("%Y%m%d")
-    timestamp      = datetime.now().strftime("%d/%m/%Y %H:%M")
+    data_inicio      = hoje - timedelta(days=DIAS_RETROATIVOS)
+    data_inicio_str  = data_inicio.strftime("%d/%m/%Y")
+    data_hoje_str    = hoje.strftime("%d/%m/%Y")
+    data_hoje_arq    = hoje.strftime("%Y%m%d")
+    timestamp        = datetime.now().strftime("%d/%m/%Y %H:%M")
+    periodo_str      = f"{data_inicio_str} a {data_hoje_str}"
 
-    print(f"📅 Consultando OSs finalizadas em {data_consulta}...")
+    print(f"📅 Consultando OSs finalizadas entre {periodo_str}...")
 
     # Controle de deduplicação
     RELEASE_DIR.mkdir(parents=True, exist_ok=True)
@@ -162,13 +177,13 @@ def main():
 
     # Consulta API
     try:
-        ordens = consultar_api(token, data_consulta)
+        ordens = consultar_api_periodo(token, data_inicio, hoje)
     except Exception as exc:
         print(f"❌ Erro ao consultar API: {exc}")
         sys.exit(1)
 
     if not ordens:
-        print(f"ℹ️  Nenhuma OS encontrada para {data_consulta}.")
+        print(f"ℹ️  Nenhuma OS encontrada entre {periodo_str}.")
         sys.exit(0)
 
     print(f"📦 {len(ordens)} OS(s) retornada(s).")
@@ -177,7 +192,7 @@ def main():
     ignoradas_dedup = len(ordens) - len(novas)
 
     if not novas:
-        print(f"ℹ️  Todas as OSs de {data_consulta} já foram processadas anteriormente.")
+        print(f"ℹ️  Todas as OSs de {periodo_str} já foram processadas anteriormente.")
         sys.exit(0)
 
     # Processa cada OS nova
