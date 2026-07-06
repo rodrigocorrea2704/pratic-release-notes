@@ -33,7 +33,7 @@ jobs:
       - name: Gerar notas de alterações
         id: gerar
         env:
-          PRATIC_TOKEN: ${{ secrets.PRATIC_TOKEN }}
+          PRATIC_TOKEN: ${{ secrets.PRATIC_TOKEN_PRATICSITE }}
           TZ: America/Sao_Paulo
         run: |
           python scripts/gerar_notas.py 2>&1 | tee /tmp/saida.txt
