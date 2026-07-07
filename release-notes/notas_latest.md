@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (21/06/2026 a 06/07/2026)
+Últimos 15 dias (22/06/2026 a 07/07/2026)
 
-Atualizado em: 06/07/2026 11:40
+Atualizado em: 07/07/2026 09:43
 
 ---
 
@@ -25,6 +25,15 @@ Implementar o Sexagesimal no digitado do Dashiboard
 na Nuvem nao permiti digitar 3 digitos , preciso informar 135 horas. (no desktop da certo).
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19787 — GERAÇÃO DO S-2500
+
+Na geração do S-2500 (ID = 33101) a tag <codCateg>0</codCateg> o sistema está levando 0, nesse caso, foi informado "nenhum" então não podemos mandar essa TAG.
+
+✅ Correção | OS #19773 — EMISSÃO HOLERITE COMPLETO
+
+Erro na emissão dos Holerites Completos em Lote, modelo "holerite uma coluna":
+Erro na emissão dos Holerites Completos em Lote, modelo "holerite duas colunas":
 
 🔧 Melhoria | OS #19766 — GERAÇÃO DO S-2299 - RESCISÃO/FÉRIAS GOZADAS
 

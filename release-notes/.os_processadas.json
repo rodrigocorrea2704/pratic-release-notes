@@ -192,6 +192,28 @@
       "oseCod": "19730",
       "dataProcessamento": "06/07/2026 11:40",
       "incluida": true
+    },
+    {
+      "oseCod": "19779",
+      "dataProcessamento": "07/07/2026 09:43",
+      "incluida": false,
+      "motivo": "interno"
+    },
+    {
+      "oseCod": "19787",
+      "dataProcessamento": "07/07/2026 09:43",
+      "incluida": true
+    },
+    {
+      "oseCod": "19773",
+      "dataProcessamento": "07/07/2026 09:43",
+      "incluida": true
+    },
+    {
+      "oseCod": "19778",
+      "dataProcessamento": "07/07/2026 09:43",
+      "incluida": false,
+      "motivo": "suporte simples"
     }
   ]
 }
