@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (22/06/2026 a 07/07/2026)
+Últimos 15 dias (23/06/2026 a 08/07/2026)
 
-Atualizado em: 07/07/2026 09:43
+Atualizado em: 08/07/2026 09:28
 
 ---
 
@@ -26,6 +26,10 @@ na Nuvem nao permiti digitar 3 digitos , preciso informar 135 horas. (no desktop
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
+🔧 Melhoria | OS #19784 — S-1210 - TAG IDEDMDEV 13° SALARIO
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #19787 — GERAÇÃO DO S-2500
 
 Na geração do S-2500 (ID = 33101) a tag <codCateg>0</codCateg> o sistema está levando 0, nesse caso, foi informado "nenhum" então não podemos mandar essa TAG.
@@ -39,6 +43,7 @@ Erro na emissão dos Holerites Completos em Lote, modelo "holerite duas colunas"
 
 Funcionário retornou das férias dia 12/06, e no dia 23/06 foi desligado da empresa, então na geração do S-2299 (ID = 1287) o sistema não pode gerar o evento 22 (2-40) na
 Na geração do S-1210 (ID = 1286) o sistema precisa gerar o <tpPgto> da tag férias = 2
+Na geração do S-1210 (ID = 1286) o sistema precisa gerar na tag das FÉRIAS, a tag <perRef> = 2026-06
 
 🔧 Melhoria | OS #19771 — CÁLCULO FOLHA / VALE TRANSPORTE
 
