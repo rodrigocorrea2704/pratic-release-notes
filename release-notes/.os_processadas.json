@@ -243,6 +243,11 @@
       "dataProcessamento": "08/07/2026 09:28",
       "incluida": false,
       "motivo": "suporte simples"
+    },
+    {
+      "oseCod": "19791",
+      "dataProcessamento": "10/07/2026 09:42",
+      "incluida": true
     }
   ]
 }

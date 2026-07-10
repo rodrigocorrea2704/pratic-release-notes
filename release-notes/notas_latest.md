@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (23/06/2026 a 08/07/2026)
+Últimos 15 dias (25/06/2026 a 10/07/2026)
 
-Atualizado em: 08/07/2026 09:28
+Atualizado em: 10/07/2026 09:42
 
 ---
 
@@ -25,6 +25,10 @@ Implementar o Sexagesimal no digitado do Dashiboard
 na Nuvem nao permiti digitar 3 digitos , preciso informar 135 horas. (no desktop da certo).
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19791 — GERAÇÃO S-1210 / FUNCS + AUTONOMO
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19784 — S-1210 - TAG IDEDMDEV 13° SALARIO
 
