@@ -1,11 +1,19 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (29/06/2026 a 14/07/2026)
+Últimos 15 dias (30/06/2026 a 15/07/2026)
 
-Atualizado em: 14/07/2026 09:23
+Atualizado em: 15/07/2026 09:24
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+✅ Correção | OS #19807 — LOCAÇÃO TOMADOR - SOCIO
+
+Ao preencher os dados para locação do socio 1 no tomador 42 da empresa 2092 e clicar em salvar na Nuvem o sistema nem grava informaçao e nem da mensagem de erro.
+
+🔧 Melhoria | OS #19776 — CALCULO INTERMITENTE - SUB BASE (FERIAS E 13°)
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19775 — ERRO S-2299 - EMPRESA CLASSIFICAÇÃO TRIB 03
 
@@ -15,16 +23,16 @@ Atualizado em: 14/07/2026 09:23
 
 Na listagem do Holerite Completo na Nuvem, esta faltando descrição das colinas de provento, desconto e descriçao dos eventos.
 
-✅ Correção | OS #19750 — ERRO AO ENVIAR QUALQUER EVENTO DO E-SOCIAL
-
-Estou tentando enviar qualquer evento do e-Social (ID = 33053) na folha nuvem, e da o erro em anexo. 
-
 🔧 Melhoria | OS #19737 — IMPLEMENTAÇÕES NUVEM
 
 Implementar o Sexagesimal no digitado do Dashiboard
 na Nuvem nao permiti digitar 3 digitos , preciso informar 135 horas. (no desktop da certo).
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19809 — MAPA MEDIAS - PROVISAO FERIAS
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19791 — GERAÇÃO S-1210 / FUNCS + AUTONOMO
 
