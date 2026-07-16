@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (30/06/2026 a 15/07/2026)
+Últimos 15 dias (01/07/2026 a 16/07/2026)
 
-Atualizado em: 15/07/2026 09:24
+Atualizado em: 16/07/2026 09:27
 
 ---
 
@@ -23,12 +23,11 @@ Ao preencher os dados para locação do socio 1 no tomador 42 da empresa 2092 e 
 
 Na listagem do Holerite Completo na Nuvem, esta faltando descrição das colinas de provento, desconto e descriçao dos eventos.
 
-🔧 Melhoria | OS #19737 — IMPLEMENTAÇÕES NUVEM
-
-Implementar o Sexagesimal no digitado do Dashiboard
-na Nuvem nao permiti digitar 3 digitos , preciso informar 135 horas. (no desktop da certo).
-
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19805 — LISTAGEM FOLHA / RESCISÃO / 13º
+
+Estou fazendo a listagem da folha, competência 05/2026, e no RESUMO DO INSS - o valor a recolher precisar ser R$ 192,44
 
 🔧 Melhoria | OS #19809 — MAPA MEDIAS - PROVISAO FERIAS
 
