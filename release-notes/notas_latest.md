@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (01/07/2026 a 16/07/2026)
+Últimos 15 dias (02/07/2026 a 17/07/2026)
 
-Atualizado em: 16/07/2026 09:27
+Atualizado em: 17/07/2026 09:21
 
 ---
 
@@ -18,6 +18,10 @@ Ao preencher os dados para locação do socio 1 no tomador 42 da empresa 2092 e 
 🔧 Melhoria | OS #19775 — ERRO S-2299 - EMPRESA CLASSIFICAÇÃO TRIB 03
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19767 — SOLICITAÇÃO / ENCERRAMENTO EM LOTE / FILA DE ESTABELECIMENTOS / FOLHA NUVEM
+
+Solicitação do Cliente Delton-Escritório São José, para inclusão do encerramento automático no cálculo/fila estabelecimento:
 
 ✅ Correção | OS #19769 — HOLERITE COMPLETO - DESCRIÇOES
 
