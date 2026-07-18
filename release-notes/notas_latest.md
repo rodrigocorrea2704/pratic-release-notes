@@ -1,11 +1,16 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (02/07/2026 a 17/07/2026)
+Últimos 15 dias (03/07/2026 a 18/07/2026)
 
-Atualizado em: 17/07/2026 09:21
+Atualizado em: 18/07/2026 09:13
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+✅ Correção | OS #19819 — CLIENTE REPORTANDO INCOSISTENCIA NO CADASTRO DE COLABORADORES / CONSULTA RESCISÃO
+
+Cliente (RH_STAR_SHINE e RH_FUNDEC) Tenta gravar e não ta conseguindo gravar dados bancarios, não mostra data de nascimento, sexo ou a tela não esta mostrando no cadastro do
+Cliente (RH_UNIDOS / RH_IVONE / RH_PRATICIA_CRISTINA) - Estão entrando em Processamentos / Rescisões / Consultar conforme o e não aparece nada "sumiu"
 
 ✅ Correção | OS #19807 — LOCAÇÃO TOMADOR - SOCIO
 
@@ -23,11 +28,11 @@ Ao preencher os dados para locação do socio 1 no tomador 42 da empresa 2092 e 
 
 Solicitação do Cliente Delton-Escritório São José, para inclusão do encerramento automático no cálculo/fila estabelecimento:
 
-✅ Correção | OS #19769 — HOLERITE COMPLETO - DESCRIÇOES
-
-Na listagem do Holerite Completo na Nuvem, esta faltando descrição das colinas de provento, desconto e descriçao dos eventos.
-
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+✅ Correção | OS #19823 — GERAÇÃO DO S-2299 / EMPRÉSTIMO
+
+Na geração do S-2299 (ID = 27968), o sistema não está gerando no xml o evento 196 com os valores/dados do empréstimo do funcionário, verifiquei que é devido ter os
 
 🔧 Melhoria | OS #19805 — LISTAGEM FOLHA / RESCISÃO / 13º
 
