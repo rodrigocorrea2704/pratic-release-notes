@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (05/07/2026 a 20/07/2026)
+Últimos 15 dias (06/07/2026 a 21/07/2026)
 
-Atualizado em: 20/07/2026 09:39
+Atualizado em: 21/07/2026 09:28
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #19821 — CÁLCULO RESCISÃO / FÉRIAS VENCIDAS
+
+⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #19819 — CLIENTE REPORTANDO INCOSISTENCIA NO CADASTRO DE COLABORADORES / CONSULTA RESCISÃO
 
@@ -25,6 +29,10 @@ Ao preencher os dados para locação do socio 1 no tomador 42 da empresa 2092 e 
 Solicitação do Cliente Delton-Escritório São José, para inclusão do encerramento automático no cálculo/fila estabelecimento:
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+✅ Correção | OS #19832 — GERAÇÃO DO S-1210
+
+Estou fazendo a geração do S-1210 (ID = 15378) e o sistema esta criando as TAG abaixo, mas no mês 01/2026 o funcionário não tem FÉRIAS e nem 13º SALÁRIO.
 
 ✅ Correção | OS #19823 — GERAÇÃO DO S-2299 / EMPRÉSTIMO
 
