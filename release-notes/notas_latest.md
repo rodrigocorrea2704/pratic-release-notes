@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (07/07/2026 a 22/07/2026)
+Últimos 15 dias (08/07/2026 a 23/07/2026)
 
-Atualizado em: 22/07/2026 09:28
+Atualizado em: 23/07/2026 09:28
 
 ---
 
@@ -49,19 +49,6 @@ Estou fazendo a listagem da folha, competência 05/2026, e no RESUMO DO INSS - o
 🔧 Melhoria | OS #19791 — GERAÇÃO S-1210 / FUNCS + AUTONOMO
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19784 — S-1210 - TAG IDEDMDEV 13° SALARIO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19787 — GERAÇÃO DO S-2500
-
-Na geração do S-2500 (ID = 33101) a tag <codCateg>0</codCateg> o sistema está levando 0, nesse caso, foi informado "nenhum" então não podemos mandar essa TAG.
-
-✅ Correção | OS #19773 — EMISSÃO HOLERITE COMPLETO
-
-Erro na emissão dos Holerites Completos em Lote, modelo "holerite uma coluna":
-Erro na emissão dos Holerites Completos em Lote, modelo "holerite duas colunas":
 
 🔧 Melhoria | OS #19766 — GERAÇÃO DO S-2299 - RESCISÃO/FÉRIAS GOZADAS
 
