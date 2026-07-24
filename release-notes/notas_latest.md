@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (08/07/2026 a 23/07/2026)
+Últimos 15 dias (09/07/2026 a 24/07/2026)
 
-Atualizado em: 23/07/2026 09:28
+Atualizado em: 24/07/2026 09:25
 
 ---
 
@@ -49,9 +49,3 @@ Estou fazendo a listagem da folha, competência 05/2026, e no RESUMO DO INSS - o
 🔧 Melhoria | OS #19791 — GERAÇÃO S-1210 / FUNCS + AUTONOMO
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19766 — GERAÇÃO DO S-2299 - RESCISÃO/FÉRIAS GOZADAS
-
-Funcionário retornou das férias dia 12/06, e no dia 23/06 foi desligado da empresa, então na geração do S-2299 (ID = 1287) o sistema não pode gerar o evento 22 (2-40) na
-Na geração do S-1210 (ID = 1286) o sistema precisa gerar o <tpPgto> da tag férias = 2
-Na geração do S-1210 (ID = 1286) o sistema precisa gerar na tag das FÉRIAS, a tag <perRef> = 2026-06
