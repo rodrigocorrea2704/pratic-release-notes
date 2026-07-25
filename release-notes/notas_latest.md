@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (09/07/2026 a 24/07/2026)
+Últimos 15 dias (10/07/2026 a 25/07/2026)
 
-Atualizado em: 24/07/2026 09:25
+Atualizado em: 25/07/2026 09:15
 
 ---
 
@@ -29,6 +29,10 @@ Ao preencher os dados para locação do socio 1 no tomador 42 da empresa 2092 e 
 Solicitação do Cliente Delton-Escritório São José, para inclusão do encerramento automático no cálculo/fila estabelecimento:
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19840 — RESCISÃO / 13º / IRRF ABAIXO DE 5MIL
+
+⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #19832 — GERAÇÃO DO S-1210
 
