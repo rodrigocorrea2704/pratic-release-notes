@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (14/07/2026 a 29/07/2026)
+Últimos 15 dias (15/07/2026 a 30/07/2026)
 
-Atualizado em: 29/07/2026 09:35
+Atualizado em: 30/07/2026 09:29
 
 ---
 
@@ -16,23 +16,23 @@ Atualizado em: 29/07/2026 09:35
 Cliente (RH_STAR_SHINE e RH_FUNDEC) Tenta gravar e não ta conseguindo gravar dados bancarios, não mostra data de nascimento, sexo ou a tela não esta mostrando no cadastro do
 Cliente (RH_UNIDOS / RH_IVONE / RH_PRATICIA_CRISTINA) - Estão entrando em Processamentos / Rescisões / Consultar conforme o e não aparece nada "sumiu"
 
-✅ Correção | OS #19807 — LOCAÇÃO TOMADOR - SOCIO
-
-Ao preencher os dados para locação do socio 1 no tomador 42 da empresa 2092 e clicar em salvar na Nuvem o sistema nem grava informaçao e nem da mensagem de erro.
-
-🔧 Melhoria | OS #19776 — CALCULO INTERMITENTE - SUB BASE (FERIAS E 13°)
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #19767 — SOLICITAÇÃO / ENCERRAMENTO EM LOTE / FILA DE ESTABELECIMENTOS / FOLHA NUVEM
 
 Solicitação do Cliente Delton-Escritório São José, para inclusão do encerramento automático no cálculo/fila estabelecimento:
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
+🔧 Melhoria | OS #19857 — GERAÇÃO DO S-2300 / ESTAGIÁRIO + ESTRANGEIRO
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #19840 — RESCISÃO / 13º / IRRF ABAIXO DE 5MIL
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19838 — TELA AFASTAMENTO
+
+Em Cadastro / Colaboradores / Funcionários - campo "situação" - fiz o lançamento do afastamento normalmente, sem erros, porém quando vou editar o afastamento lançado o sistema
 
 ✅ Correção | OS #19832 — GERAÇÃO DO S-1210
 
@@ -46,10 +46,16 @@ Na geração do S-2299 (ID = 27968), o sistema não está gerando no xml o event
 
 Estou fazendo a listagem da folha, competência 05/2026, e no RESUMO DO INSS - o valor a recolher precisar ser R$ 192,44
 
-🔧 Melhoria | OS #19809 — MAPA MEDIAS - PROVISAO FERIAS
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #19791 — GERAÇÃO S-1210 / FUNCS + AUTONOMO
 
 ⚠️ Em desenvolvimento...
+
+✅ Correção | OS #19747 — NOVA API / IMPORTAÇÃO E-CONSIGNADO RESCISÃO
+
+Nova API do eConsignador - temos que criar a rotina para consumir e importar os dados antes de calcular uma Rescisão
+Alteração no Cálculo da Rescisão referente a montagem da base de calculo:
+Criação dos Campos Novos: 
+Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: teste sendo aplicado em modo PRODUÇÃO, estou usando a opção "Importar por 
+Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Funcionário" - selecionando a opção
+Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Empregador" - selecionando a opção
+Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Funcionário" - selecionando a opção
