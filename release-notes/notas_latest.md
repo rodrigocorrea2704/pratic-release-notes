@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (15/07/2026 a 30/07/2026)
+Últimos 15 dias (16/07/2026 a 31/07/2026)
 
-Atualizado em: 30/07/2026 09:29
+Atualizado em: 31/07/2026 09:33
 
 ---
 
@@ -15,6 +15,10 @@ Atualizado em: 30/07/2026 09:29
 
 Cliente (RH_STAR_SHINE e RH_FUNDEC) Tenta gravar e não ta conseguindo gravar dados bancarios, não mostra data de nascimento, sexo ou a tela não esta mostrando no cadastro do
 Cliente (RH_UNIDOS / RH_IVONE / RH_PRATICIA_CRISTINA) - Estão entrando em Processamentos / Rescisões / Consultar conforme o e não aparece nada "sumiu"
+
+🔧 Melhoria | OS #19813 — CAMPO DATA NASCIMENTO  - REGISTRO COLABORADOR NUVEM
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19767 — SOLICITAÇÃO / ENCERRAMENTO EM LOTE / FILA DE ESTABELECIMENTOS / FOLHA NUVEM
 
@@ -41,14 +45,6 @@ Estou fazendo a geração do S-1210 (ID = 15378) e o sistema esta criando as TAG
 ✅ Correção | OS #19823 — GERAÇÃO DO S-2299 / EMPRÉSTIMO
 
 Na geração do S-2299 (ID = 27968), o sistema não está gerando no xml o evento 196 com os valores/dados do empréstimo do funcionário, verifiquei que é devido ter os
-
-🔧 Melhoria | OS #19805 — LISTAGEM FOLHA / RESCISÃO / 13º
-
-Estou fazendo a listagem da folha, competência 05/2026, e no RESUMO DO INSS - o valor a recolher precisar ser R$ 192,44
-
-🔧 Melhoria | OS #19791 — GERAÇÃO S-1210 / FUNCS + AUTONOMO
-
-⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #19747 — NOVA API / IMPORTAÇÃO E-CONSIGNADO RESCISÃO
 
