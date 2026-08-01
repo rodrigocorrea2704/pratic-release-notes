@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (16/07/2026 a 31/07/2026)
+Últimos 15 dias (17/07/2026 a 01/08/2026)
 
-Atualizado em: 31/07/2026 09:33
+Atualizado em: 01/08/2026 09:16
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #19866 — EXCLUSÃO DA RESCISÃO DE ESTAGIÁRIO
+
+Em Trabalhadores / Estagiários / Consulta-Cadastro - estou entrando no painel do estagiário, e clicando na opção "Exclusão do término de contrato" o sistema "trava" mostra uma tela
 
 🔧 Melhoria | OS #19821 — CÁLCULO RESCISÃO / FÉRIAS VENCIDAS
 
@@ -25,6 +29,14 @@ Cliente (RH_UNIDOS / RH_IVONE / RH_PRATICIA_CRISTINA) - Estão entrando em Proce
 Solicitação do Cliente Delton-Escritório São José, para inclusão do encerramento automático no cálculo/fila estabelecimento:
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19868 — FOLHA COM E-CONSIGNADO / RENDIMENTO EM OUTRAS EMPRESAS
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19862 — GERAÇÃO S-2299 / EMPRÉSTIMO
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19857 — GERAÇÃO DO S-2300 / ESTAGIÁRIO + ESTRANGEIRO
 
