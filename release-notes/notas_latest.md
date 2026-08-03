@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (17/07/2026 a 01/08/2026)
+Últimos 15 dias (19/07/2026 a 03/08/2026)
 
-Atualizado em: 01/08/2026 09:16
+Atualizado em: 03/08/2026 09:58
 
 ---
 
@@ -15,18 +15,9 @@ Em Trabalhadores / Estagiários / Consulta-Cadastro - estou entrando no painel d
 
 ⚠️ Em desenvolvimento...
 
-✅ Correção | OS #19819 — CLIENTE REPORTANDO INCOSISTENCIA NO CADASTRO DE COLABORADORES / CONSULTA RESCISÃO
-
-Cliente (RH_STAR_SHINE e RH_FUNDEC) Tenta gravar e não ta conseguindo gravar dados bancarios, não mostra data de nascimento, sexo ou a tela não esta mostrando no cadastro do
-Cliente (RH_UNIDOS / RH_IVONE / RH_PRATICIA_CRISTINA) - Estão entrando em Processamentos / Rescisões / Consultar conforme o e não aparece nada "sumiu"
-
 🔧 Melhoria | OS #19813 — CAMPO DATA NASCIMENTO  - REGISTRO COLABORADOR NUVEM
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19767 — SOLICITAÇÃO / ENCERRAMENTO EM LOTE / FILA DE ESTABELECIMENTOS / FOLHA NUVEM
-
-Solicitação do Cliente Delton-Escritório São José, para inclusão do encerramento automático no cálculo/fila estabelecimento:
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
@@ -53,10 +44,6 @@ Em Cadastro / Colaboradores / Funcionários - campo "situação" - fiz o lançam
 ✅ Correção | OS #19832 — GERAÇÃO DO S-1210
 
 Estou fazendo a geração do S-1210 (ID = 15378) e o sistema esta criando as TAG abaixo, mas no mês 01/2026 o funcionário não tem FÉRIAS e nem 13º SALÁRIO.
-
-✅ Correção | OS #19823 — GERAÇÃO DO S-2299 / EMPRÉSTIMO
-
-Na geração do S-2299 (ID = 27968), o sistema não está gerando no xml o evento 196 com os valores/dados do empréstimo do funcionário, verifiquei que é devido ter os
 
 ✅ Correção | OS #19747 — NOVA API / IMPORTAÇÃO E-CONSIGNADO RESCISÃO
 
