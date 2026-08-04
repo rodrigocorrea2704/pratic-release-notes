@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (19/07/2026 a 03/08/2026)
+Últimos 15 dias (20/07/2026 a 04/08/2026)
 
-Atualizado em: 03/08/2026 09:58
+Atualizado em: 04/08/2026 09:32
 
 ---
 
@@ -10,6 +10,10 @@ Atualizado em: 03/08/2026 09:58
 🔧 Melhoria | OS #19866 — EXCLUSÃO DA RESCISÃO DE ESTAGIÁRIO
 
 Em Trabalhadores / Estagiários / Consulta-Cadastro - estou entrando no painel do estagiário, e clicando na opção "Exclusão do término de contrato" o sistema "trava" mostra uma tela
+
+🔧 Melhoria | OS #19863 — SOLICITAÇÃO - CALCULO FOLHA / MENSAGENS DO AVISO FÉRIAS VENCIDAS
+
+Em Processamentos / Mensais / Calcular Colaboradores >> Calcular em LOTE - no cálculo da folha, quando tem avisos ref. ao vencimento de Férias Vencidas, o sistema mostra apenas
 
 🔧 Melhoria | OS #19821 — CÁLCULO RESCISÃO / FÉRIAS VENCIDAS
 
@@ -44,6 +48,10 @@ Em Cadastro / Colaboradores / Funcionários - campo "situação" - fiz o lançam
 ✅ Correção | OS #19832 — GERAÇÃO DO S-1210
 
 Estou fazendo a geração do S-1210 (ID = 15378) e o sistema esta criando as TAG abaixo, mas no mês 01/2026 o funcionário não tem FÉRIAS e nem 13º SALÁRIO.
+
+🔧 Melhoria | OS #19816 — ENVIO S-1299 ESOCIAL / DIFERENÇAS DIRF COM CONVÊNIO
+
+O Relatorio Conferencia Dirf aponta diferença no valor enviado de plano de saude da colaboradora Gabriela Duran das Neves,
 
 ✅ Correção | OS #19747 — NOVA API / IMPORTAÇÃO E-CONSIGNADO RESCISÃO
 
