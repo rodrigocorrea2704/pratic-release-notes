@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (20/07/2026 a 04/08/2026)
+Últimos 15 dias (21/07/2026 a 05/08/2026)
 
-Atualizado em: 04/08/2026 09:32
+Atualizado em: 05/08/2026 09:31
 
 ---
 
@@ -15,15 +15,15 @@ Em Trabalhadores / Estagiários / Consulta-Cadastro - estou entrando no painel d
 
 Em Processamentos / Mensais / Calcular Colaboradores >> Calcular em LOTE - no cálculo da folha, quando tem avisos ref. ao vencimento de Férias Vencidas, o sistema mostra apenas
 
-🔧 Melhoria | OS #19821 — CÁLCULO RESCISÃO / FÉRIAS VENCIDAS
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #19813 — CAMPO DATA NASCIMENTO  - REGISTRO COLABORADOR NUVEM
 
 ⚠️ Em desenvolvimento...
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19872 — RESCISÃO / FÉRIAS / IRRF ABAIXO DE 5 MIL
+
+Em Processamentos / Rescisão / Calcular Rescisão: o sistema está calculando o evento 162 - IRRF s/ Férias, nesse caso a base ficou menor que 5mil
 
 🔧 Melhoria | OS #19868 — FOLHA COM E-CONSIGNADO / RENDIMENTO EM OUTRAS EMPRESAS
 
