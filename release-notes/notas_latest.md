@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (21/07/2026 a 05/08/2026)
+Últimos 15 dias (22/07/2026 a 06/08/2026)
 
-Atualizado em: 05/08/2026 09:31
+Atualizado em: 06/08/2026 09:32
 
 ---
 
@@ -14,6 +14,11 @@ Em Trabalhadores / Estagiários / Consulta-Cadastro - estou entrando no painel d
 🔧 Melhoria | OS #19863 — SOLICITAÇÃO - CALCULO FOLHA / MENSAGENS DO AVISO FÉRIAS VENCIDAS
 
 Em Processamentos / Mensais / Calcular Colaboradores >> Calcular em LOTE - no cálculo da folha, quando tem avisos ref. ao vencimento de Férias Vencidas, o sistema mostra apenas
+
+🔧 Melhoria | OS #19842 — MIGRAÇÃO DE CLIENTE
+
+Colocar o banco de dados na nuvem
+Alessandra disse que o e-mail cadastrado para acesso a FOLHA NUVEM, está cadastrado errado. Trocar o e-mail para e-mail: escopacontabilidade2026@hotmail.com
 
 🔧 Melhoria | OS #19813 — CAMPO DATA NASCIMENTO  - REGISTRO COLABORADOR NUVEM
 
@@ -45,13 +50,13 @@ Em Processamentos / Rescisão / Calcular Rescisão: o sistema está calculando o
 
 Em Cadastro / Colaboradores / Funcionários - campo "situação" - fiz o lançamento do afastamento normalmente, sem erros, porém quando vou editar o afastamento lançado o sistema
 
-✅ Correção | OS #19832 — GERAÇÃO DO S-1210
-
-Estou fazendo a geração do S-1210 (ID = 15378) e o sistema esta criando as TAG abaixo, mas no mês 01/2026 o funcionário não tem FÉRIAS e nem 13º SALÁRIO.
-
 🔧 Melhoria | OS #19816 — ENVIO S-1299 ESOCIAL / DIFERENÇAS DIRF COM CONVÊNIO
 
 O Relatorio Conferencia Dirf aponta diferença no valor enviado de plano de saude da colaboradora Gabriela Duran das Neves,
+
+🔧 Melhoria | OS #19804 — CONSULTA FUNCIONARIO (PESQUISA DIGITAÇAO)
+
+⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #19747 — NOVA API / IMPORTAÇÃO E-CONSIGNADO RESCISÃO
 
