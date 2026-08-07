@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (22/07/2026 a 06/08/2026)
+Últimos 15 dias (23/07/2026 a 07/08/2026)
 
-Atualizado em: 06/08/2026 09:32
+Atualizado em: 07/08/2026 09:12
 
 ---
 
@@ -24,11 +24,28 @@ Alessandra disse que o e-mail cadastrado para acesso a FOLHA NUVEM, está cadast
 
 ⚠️ Em desenvolvimento...
 
+🔧 Melhoria | OS #19798 — NOVO CLIENTE
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #18799 — LIMPESA DE ARQUIVOS TEMPORÁRIOS NA NUVEM
+
+VERIFICAR EM QUE MOMENTO O SISTEMA EM NUVEM FAZ A LIMPESA DOS ARQUIVOS TEMPORÁRIOS 
+EM UMA BASE DE CLIENTE FUI DELETAR O AUXDIV POR EXEMPLO E CONGELOU MEU PC, PENSEI QUE TAVA TRAVADO MAS ERA O ARQUIVO QUE TAVA MUITO GRANDE 
+
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19874 — CÁLCULO INTERMITENTE / SEM CONVOCAÇÃO
+
+Funcionário Intermitente, no mês 07/2026 ele não foi convocado, então no digitado foi lançado o evento 002- Horas Normais com o valor zerado, e mesmo zerado o sistema
 
 🔧 Melhoria | OS #19872 — RESCISÃO / FÉRIAS / IRRF ABAIXO DE 5 MIL
 
 Em Processamentos / Rescisão / Calcular Rescisão: o sistema está calculando o evento 162 - IRRF s/ Férias, nesse caso a base ficou menor que 5mil
+
+✅ Correção | OS #19867 — SOLCITAÇÃO / RELATÓRIO DE PROVENTOS E DESCONTOS
+
+Em Relatórios / Colaboradores / Mensais / Relatórios para Conferência / Relação de Proventos e Descontos - estou informando em tela apenas o filtro da Seção 12, e a quebra
 
 🔧 Melhoria | OS #19868 — FOLHA COM E-CONSIGNADO / RENDIMENTO EM OUTRAS EMPRESAS
 
@@ -67,3 +84,7 @@ Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos 
 Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Funcionário" - selecionando a opção
 Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Empregador" - selecionando a opção
 Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Funcionário" - selecionando a opção
+
+🔧 Melhoria | OS #19596 — TRANSFERÊNCIA / CÁLCULO FOLHA
+
+Fiz uma transferência com data 30/04/2026, então na empresa de origem (2021) o funcionário precisa receber 29 DIAS de salário, no valor de R$ 4.350,00 e o sistema apurou um 

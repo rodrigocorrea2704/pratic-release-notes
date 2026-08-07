@@ -382,6 +382,31 @@
       "oseCod": "19804",
       "dataProcessamento": "06/08/2026 09:32",
       "incluida": true
+    },
+    {
+      "oseCod": "19596",
+      "dataProcessamento": "07/08/2026 09:12",
+      "incluida": true
+    },
+    {
+      "oseCod": "19867",
+      "dataProcessamento": "07/08/2026 09:12",
+      "incluida": true
+    },
+    {
+      "oseCod": "19874",
+      "dataProcessamento": "07/08/2026 09:12",
+      "incluida": true
+    },
+    {
+      "oseCod": "18799",
+      "dataProcessamento": "07/08/2026 09:12",
+      "incluida": true
+    },
+    {
+      "oseCod": "19798",
+      "dataProcessamento": "07/08/2026 09:12",
+      "incluida": true
     }
   ]
 }
