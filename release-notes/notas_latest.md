@@ -1,11 +1,19 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (23/07/2026 a 07/08/2026)
+Últimos 15 dias (24/07/2026 a 08/08/2026)
 
-Atualizado em: 07/08/2026 09:12
+Atualizado em: 08/08/2026 09:05
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+✅ Correção | OS #19883 — EVENTO MEDIAS FERIAS  DUPLICADO S-1200
+
+O evento 33 - medias de ferias esta saindo duas vezes no xml do S-1200 (sai o proprio evento e tambem soma no cod evento 178 - ferias esocial)
+
+🔧 Melhoria | OS #19870 — TAG DMDEV S-1210 MULTIPLO VINCULO
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19866 — EXCLUSÃO DA RESCISÃO DE ESTAGIÁRIO
 
@@ -28,12 +36,28 @@ Alessandra disse que o e-mail cadastrado para acesso a FOLHA NUVEM, está cadast
 
 ⚠️ Em desenvolvimento...
 
+🔧 Melhoria | OS #19752 — INCLUSÃO DE CONTRATO COM AUTOMAÇÃO
+
+Após o Cadastramento de um Colaborador o cliente precisa de um gerador de relatorios específicos 
+
 🔧 Melhoria | OS #18799 — LIMPESA DE ARQUIVOS TEMPORÁRIOS NA NUVEM
 
 VERIFICAR EM QUE MOMENTO O SISTEMA EM NUVEM FAZ A LIMPESA DOS ARQUIVOS TEMPORÁRIOS 
 EM UMA BASE DE CLIENTE FUI DELETAR O AUXDIV POR EXEMPLO E CONGELOU MEU PC, PENSEI QUE TAVA TRAVADO MAS ERA O ARQUIVO QUE TAVA MUITO GRANDE 
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19880 — CÁLCULO RESCISÃO / ADICIONAL NOTURNO
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19877 — ERRO CALCULO RESCISAO
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19875 — GERAÇÃO S-1210 / FOLHA + 13º + FÉRIAS
+
+Estou fazendo a geração do S-1210 (ID =44534 ) e o sistema está gerando a data de pagamento da TAG da folha errada, data correta da Tag - <dtPgto> tem que ser 31/07/2026.
 
 🔧 Melhoria | OS #19874 — CÁLCULO INTERMITENTE / SEM CONVOCAÇÃO
 

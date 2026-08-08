@@ -407,6 +407,42 @@
       "oseCod": "19798",
       "dataProcessamento": "07/08/2026 09:12",
       "incluida": true
+    },
+    {
+      "oseCod": "19883",
+      "dataProcessamento": "08/08/2026 09:05",
+      "incluida": true
+    },
+    {
+      "oseCod": "19880",
+      "dataProcessamento": "08/08/2026 09:05",
+      "incluida": true
+    },
+    {
+      "oseCod": "19877",
+      "dataProcessamento": "08/08/2026 09:05",
+      "incluida": true
+    },
+    {
+      "oseCod": "19870",
+      "dataProcessamento": "08/08/2026 09:05",
+      "incluida": true
+    },
+    {
+      "oseCod": "19752",
+      "dataProcessamento": "08/08/2026 09:05",
+      "incluida": true
+    },
+    {
+      "oseCod": "19875",
+      "dataProcessamento": "08/08/2026 09:05",
+      "incluida": true
+    },
+    {
+      "oseCod": "19717",
+      "dataProcessamento": "08/08/2026 09:05",
+      "incluida": false,
+      "motivo": "interno"
     }
   ]
 }
