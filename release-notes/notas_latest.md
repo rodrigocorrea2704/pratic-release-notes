@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (24/07/2026 a 08/08/2026)
+Últimos 15 dias (26/07/2026 a 10/08/2026)
 
-Atualizado em: 08/08/2026 09:05
+Atualizado em: 10/08/2026 09:12
 
 ---
 
@@ -80,10 +80,6 @@ Em Relatórios / Colaboradores / Mensais / Relatórios para Conferência / Rela�
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19857 — GERAÇÃO DO S-2300 / ESTAGIÁRIO + ESTRANGEIRO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19840 — RESCISÃO / 13º / IRRF ABAIXO DE 5MIL
 
 ⚠️ Em desenvolvimento...
 
