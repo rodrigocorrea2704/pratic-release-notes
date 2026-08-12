@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (27/07/2026 a 11/08/2026)
+Últimos 15 dias (28/07/2026 a 12/08/2026)
 
-Atualizado em: 11/08/2026 09:13
+Atualizado em: 12/08/2026 09:13
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #19897 — RECIBO DE FERIAS - ESTAGIARIO
+
+Existe férias calculadas com saida em 01/08/2026, porém na Nuvem não lista o recibo de ferias de estagiario.
 
 ✅ Correção | OS #19883 — EVENTO MEDIAS FERIAS  DUPLICADO S-1200
 
@@ -46,6 +50,10 @@ VERIFICAR EM QUE MOMENTO O SISTEMA EM NUVEM FAZ A LIMPESA DOS ARQUIVOS TEMPORÁR
 EM UMA BASE DE CLIENTE FUI DELETAR O AUXDIV POR EXEMPLO E CONGELOU MEU PC, PENSEI QUE TAVA TRAVADO MAS ERA O ARQUIVO QUE TAVA MUITO GRANDE 
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19892 — GERAÇÃO S-1210 / PENSÃO DE 13º SALÁRIO
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19880 — CÁLCULO RESCISÃO / ADICIONAL NOTURNO
 

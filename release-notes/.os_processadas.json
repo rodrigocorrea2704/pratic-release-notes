@@ -443,6 +443,16 @@
       "dataProcessamento": "08/08/2026 09:05",
       "incluida": false,
       "motivo": "interno"
+    },
+    {
+      "oseCod": "19897",
+      "dataProcessamento": "12/08/2026 09:13",
+      "incluida": true
+    },
+    {
+      "oseCod": "19892",
+      "dataProcessamento": "12/08/2026 09:13",
+      "incluida": true
     }
   ]
 }
