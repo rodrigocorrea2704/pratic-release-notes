@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (28/07/2026 a 12/08/2026)
+Últimos 15 dias (29/07/2026 a 13/08/2026)
 
-Atualizado em: 12/08/2026 09:13
+Atualizado em: 13/08/2026 09:12
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #19894 — EXCLUSÃO DE EMPRESAS / ESCOPA
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19897 — RECIBO DE FERIAS - ESTAGIARIO
 
@@ -50,6 +54,22 @@ VERIFICAR EM QUE MOMENTO O SISTEMA EM NUVEM FAZ A LIMPESA DOS ARQUIVOS TEMPORÁR
 EM UMA BASE DE CLIENTE FUI DELETAR O AUXDIV POR EXEMPLO E CONGELOU MEU PC, PENSEI QUE TAVA TRAVADO MAS ERA O ARQUIVO QUE TAVA MUITO GRANDE 
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+✅ Correção | OS #19905 — GERAÇÃO S-1200 / TOMADOR POR RATEIO / FÉRIAS
+
+Na geração do S-1200 (ID = 62138) o funcionário está de férias, e o sistema não está gerando na TAG - FÉRIAS o evento 347 - Férias e-Social (na tabela ele é o código 2-49).
+
+✅ Correção | OS #19900 — GERAÇÃO DO S-1200 / AUTÔNOMO / POR RATEIO DE TOMADOR
+
+Na geração do S-1200 (ID = 60522) o sistema não está gerando o evento 100 - INSS (na tabela ele é o código 1-39) para o Autônomo 0002.
+
+✅ Correção | OS #19902 — GERAÇAÕ S-1200 / TOMADOR POR RATEIO
+
+Estou tentando enviar o evento S-1200 (ID =16243 ) o sistema mostra um erro. ERRO em anexo.
+
+🔧 Melhoria | OS #19895 — CONSULTA CADASTRO AUTONOMO
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19892 — GERAÇÃO S-1210 / PENSÃO DE 13º SALÁRIO
 
