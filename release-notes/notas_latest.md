@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (29/07/2026 a 13/08/2026)
+Últimos 15 dias (30/07/2026 a 14/08/2026)
 
-Atualizado em: 13/08/2026 09:12
+Atualizado em: 14/08/2026 09:12
 
 ---
 
@@ -75,6 +75,11 @@ Estou tentando enviar o evento S-1200 (ID =16243 ) o sistema mostra um erro. ERR
 
 ⚠️ Em desenvolvimento...
 
+🔧 Melhoria | OS #19889 — E-SOCIAL / FÉRIAS / FALTAS
+
+Funcionário com férias 30 dias dentro do mês 07/2026, porém o cliente quer descontar faltas/DSR, e lançar um auxilio, fazendo o holerite do funcionário gerar estouro, no holerite
+Adcionar um campo novo na tabela de codigos especias na posição 1-84
+
 🔧 Melhoria | OS #19880 — CÁLCULO RESCISÃO / ADICIONAL NOTURNO
 
 ⚠️ Em desenvolvimento...
@@ -107,14 +112,6 @@ Em Relatórios / Colaboradores / Mensais / Relatórios para Conferência / Rela�
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #19857 — GERAÇÃO DO S-2300 / ESTAGIÁRIO + ESTRANGEIRO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19838 — TELA AFASTAMENTO
-
-Em Cadastro / Colaboradores / Funcionários - campo "situação" - fiz o lançamento do afastamento normalmente, sem erros, porém quando vou editar o afastamento lançado o sistema
-
 🔧 Melhoria | OS #19816 — ENVIO S-1299 ESOCIAL / DIFERENÇAS DIRF COM CONVÊNIO
 
 O Relatorio Conferencia Dirf aponta diferença no valor enviado de plano de saude da colaboradora Gabriela Duran das Neves,
@@ -122,16 +119,6 @@ O Relatorio Conferencia Dirf aponta diferença no valor enviado de plano de saud
 🔧 Melhoria | OS #19804 — CONSULTA FUNCIONARIO (PESQUISA DIGITAÇAO)
 
 ⚠️ Em desenvolvimento...
-
-✅ Correção | OS #19747 — NOVA API / IMPORTAÇÃO E-CONSIGNADO RESCISÃO
-
-Nova API do eConsignador - temos que criar a rotina para consumir e importar os dados antes de calcular uma Rescisão
-Alteração no Cálculo da Rescisão referente a montagem da base de calculo:
-Criação dos Campos Novos: 
-Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: teste sendo aplicado em modo PRODUÇÃO, estou usando a opção "Importar por 
-Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Funcionário" - selecionando a opção
-Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Empregador" - selecionando a opção
-Em Movimentação / Colaboradores / Lançamentos do e-Consignado / Lançamentos Mensais: estou usando a opção "Importar por Funcionário" - selecionando a opção
 
 🔧 Melhoria | OS #19596 — TRANSFERÊNCIA / CÁLCULO FOLHA
 
