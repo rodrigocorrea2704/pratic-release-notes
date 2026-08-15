@@ -483,6 +483,12 @@
       "oseCod": "19889",
       "dataProcessamento": "14/08/2026 09:12",
       "incluida": true
+    },
+    {
+      "oseCod": "19815",
+      "dataProcessamento": "15/08/2026 09:01",
+      "incluida": false,
+      "motivo": "interno"
     }
   ]
 }
