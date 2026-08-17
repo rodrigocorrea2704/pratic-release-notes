@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (31/07/2026 a 15/08/2026)
+Últimos 15 dias (02/08/2026 a 17/08/2026)
 
-Atualizado em: 15/08/2026 09:01
+Atualizado em: 17/08/2026 09:03
 
 ---
 
@@ -23,10 +23,6 @@ O evento 33 - medias de ferias esta saindo duas vezes no xml do S-1200 (sai o pr
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #19866 — EXCLUSÃO DA RESCISÃO DE ESTAGIÁRIO
-
-Em Trabalhadores / Estagiários / Consulta-Cadastro - estou entrando no painel do estagiário, e clicando na opção "Exclusão do término de contrato" o sistema "trava" mostra uma tela
-
 🔧 Melhoria | OS #19863 — SOLICITAÇÃO - CALCULO FOLHA / MENSAGENS DO AVISO FÉRIAS VENCIDAS
 
 Em Processamentos / Mensais / Calcular Colaboradores >> Calcular em LOTE - no cálculo da folha, quando tem avisos ref. ao vencimento de Férias Vencidas, o sistema mostra apenas
@@ -35,10 +31,6 @@ Em Processamentos / Mensais / Calcular Colaboradores >> Calcular em LOTE - no c�
 
 Colocar o banco de dados na nuvem
 Alessandra disse que o e-mail cadastrado para acesso a FOLHA NUVEM, está cadastrado errado. Trocar o e-mail para e-mail: escopacontabilidade2026@hotmail.com
-
-🔧 Melhoria | OS #19813 — CAMPO DATA NASCIMENTO  - REGISTRO COLABORADOR NUVEM
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19798 — NOVO CLIENTE
 
@@ -103,14 +95,6 @@ Em Processamentos / Rescisão / Calcular Rescisão: o sistema está calculando o
 ✅ Correção | OS #19867 — SOLCITAÇÃO / RELATÓRIO DE PROVENTOS E DESCONTOS
 
 Em Relatórios / Colaboradores / Mensais / Relatórios para Conferência / Relação de Proventos e Descontos - estou informando em tela apenas o filtro da Seção 12, e a quebra
-
-🔧 Melhoria | OS #19868 — FOLHA COM E-CONSIGNADO / RENDIMENTO EM OUTRAS EMPRESAS
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19862 — GERAÇÃO S-2299 / EMPRÉSTIMO
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19816 — ENVIO S-1299 ESOCIAL / DIFERENÇAS DIRF COM CONVÊNIO
 
