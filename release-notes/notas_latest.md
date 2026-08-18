@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (02/08/2026 a 17/08/2026)
+Últimos 15 dias (03/08/2026 a 18/08/2026)
 
-Atualizado em: 17/08/2026 09:03
+Atualizado em: 18/08/2026 09:04
 
 ---
 
