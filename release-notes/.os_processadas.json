@@ -489,6 +489,11 @@
       "dataProcessamento": "15/08/2026 09:01",
       "incluida": false,
       "motivo": "interno"
+    },
+    {
+      "oseCod": "19032",
+      "dataProcessamento": "19/08/2026 09:04",
+      "incluida": true
     }
   ]
 }

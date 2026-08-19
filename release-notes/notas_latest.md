@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (03/08/2026 a 18/08/2026)
+Últimos 15 dias (04/08/2026 a 19/08/2026)
 
-Atualizado em: 18/08/2026 09:04
+Atualizado em: 19/08/2026 09:04
 
 ---
 
@@ -23,10 +23,6 @@ O evento 33 - medias de ferias esta saindo duas vezes no xml do S-1200 (sai o pr
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #19863 — SOLICITAÇÃO - CALCULO FOLHA / MENSAGENS DO AVISO FÉRIAS VENCIDAS
-
-Em Processamentos / Mensais / Calcular Colaboradores >> Calcular em LOTE - no cálculo da folha, quando tem avisos ref. ao vencimento de Férias Vencidas, o sistema mostra apenas
-
 🔧 Melhoria | OS #19842 — MIGRAÇÃO DE CLIENTE
 
 Colocar o banco de dados na nuvem
@@ -39,6 +35,10 @@ Alessandra disse que o e-mail cadastrado para acesso a FOLHA NUVEM, está cadast
 🔧 Melhoria | OS #19752 — INCLUSÃO DE CONTRATO COM AUTOMAÇÃO
 
 Após o Cadastramento de um Colaborador o cliente precisa de um gerador de relatorios específicos 
+
+🔧 Melhoria | OS #19032 — GERADOR DE CONTRATO / WEB
+
+/ 2 / Em Relatórios / Contrato de Trabalho / Cadastro: estou editando apenas o TITULO do contrato, conforme no print já consta a borda preenchida porque esse contrato já veio
 
 🔧 Melhoria | OS #18799 — LIMPESA DE ARQUIVOS TEMPORÁRIOS NA NUVEM
 
@@ -95,10 +95,6 @@ Em Processamentos / Rescisão / Calcular Rescisão: o sistema está calculando o
 ✅ Correção | OS #19867 — SOLCITAÇÃO / RELATÓRIO DE PROVENTOS E DESCONTOS
 
 Em Relatórios / Colaboradores / Mensais / Relatórios para Conferência / Relação de Proventos e Descontos - estou informando em tela apenas o filtro da Seção 12, e a quebra
-
-🔧 Melhoria | OS #19816 — ENVIO S-1299 ESOCIAL / DIFERENÇAS DIRF COM CONVÊNIO
-
-O Relatorio Conferencia Dirf aponta diferença no valor enviado de plano de saude da colaboradora Gabriela Duran das Neves,
 
 🔧 Melhoria | OS #19804 — CONSULTA FUNCIONARIO (PESQUISA DIGITAÇAO)
 
