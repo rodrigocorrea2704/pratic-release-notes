@@ -1,11 +1,21 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (04/08/2026 a 19/08/2026)
+Últimos 15 dias (05/08/2026 a 20/08/2026)
 
-Atualizado em: 19/08/2026 09:04
+Atualizado em: 20/08/2026 09:10
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #19904 — E-CONSIGNADO / DADOS RESCISÓRIOS
+
+Em Movimentos / e-Consignado / Lançamentos: fiz o lançamento de um novo contrato, e informei os campos novos, se "possui garantia FGTS", "saldo devedor" e o "% 
+.1 - Incluir os campos novos no grid da consulta;
+.2 - Adicionar uma opção para conseguir editar um contrato já lançado.
+
+🔧 Melhoria | OS #19901 — TIRAR O OBRIGATORIEDADE DESSE CAMPO
+
+Tirar a obrigatoriedade do campo pensão alimentícia sem adiantamento salario
 
 🔧 Melhoria | OS #19894 — EXCLUSÃO DE EMPRESAS / ESCOPA
 
@@ -15,9 +25,17 @@ Atualizado em: 19/08/2026 09:04
 
 Existe férias calculadas com saida em 01/08/2026, porém na Nuvem não lista o recibo de ferias de estagiario.
 
+✅ Correção | OS #19886 — BACKUP COM PROBLMEA NA NUVEM
+
+Não ta funcionando o backup, corrigir
+
 ✅ Correção | OS #19883 — EVENTO MEDIAS FERIAS  DUPLICADO S-1200
 
 O evento 33 - medias de ferias esta saindo duas vezes no xml do S-1200 (sai o proprio evento e tambem soma no cod evento 178 - ferias esocial)
+
+🔧 Melhoria | OS #19881 — SOLICITAÇÃO / CÁLCULO RESCISÃO / BOTÃO FALTAS
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19870 — TAG DMDEV S-1210 MULTIPLO VINCULO
 
