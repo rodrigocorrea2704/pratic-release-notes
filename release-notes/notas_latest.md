@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (07/08/2026 a 22/08/2026)
+Últimos 15 dias (09/08/2026 a 24/08/2026)
 
-Atualizado em: 22/08/2026 09:02
+Atualizado em: 24/08/2026 09:05
 
 ---
 
@@ -33,21 +33,9 @@ Existe férias calculadas com saida em 01/08/2026, porém na Nuvem não lista o 
 
 Não ta funcionando o backup, corrigir
 
-✅ Correção | OS #19883 — EVENTO MEDIAS FERIAS  DUPLICADO S-1200
-
-O evento 33 - medias de ferias esta saindo duas vezes no xml do S-1200 (sai o proprio evento e tambem soma no cod evento 178 - ferias esocial)
-
 🔧 Melhoria | OS #19881 — SOLICITAÇÃO / CÁLCULO RESCISÃO / BOTÃO FALTAS
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19870 — TAG DMDEV S-1210 MULTIPLO VINCULO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19752 — INCLUSÃO DE CONTRATO COM AUTOMAÇÃO
-
-Após o Cadastramento de um Colaborador o cliente precisa de um gerador de relatorios específicos 
 
 ✅ Correção | OS #19727 — APP HOLERITE - AJUSTE O FILTRO NO SITE PARA ENVIO DE MENSAGENS
 
@@ -92,15 +80,3 @@ Estou tentando enviar o evento S-1200 (ID =16243 ) o sistema mostra um erro. ERR
 
 Funcionário com férias 30 dias dentro do mês 07/2026, porém o cliente quer descontar faltas/DSR, e lançar um auxilio, fazendo o holerite do funcionário gerar estouro, no holerite
 Adcionar um campo novo na tabela de codigos especias na posição 1-84
-
-🔧 Melhoria | OS #19880 — CÁLCULO RESCISÃO / ADICIONAL NOTURNO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19877 — ERRO CALCULO RESCISAO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19875 — GERAÇÃO S-1210 / FOLHA + 13º + FÉRIAS
-
-Estou fazendo a geração do S-1210 (ID =44534 ) e o sistema está gerando a data de pagamento da TAG da folha errada, data correta da Tag - <dtPgto> tem que ser 31/07/2026.
