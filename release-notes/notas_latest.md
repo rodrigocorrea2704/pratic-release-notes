@@ -1,11 +1,24 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (09/08/2026 a 24/08/2026)
+Últimos 15 dias (10/08/2026 a 25/08/2026)
 
-Atualizado em: 24/08/2026 09:05
+Atualizado em: 25/08/2026 09:05
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+✅ Correção | OS #19943 — BOTÃO REMOVER - TELA LANÇAMENTOS CONSIGNADOS (NUVEM)
+
+Na tela de Lançamento Consignado na Nuvem o botão Remover não esta funcionando.(Anexo 01 - tela e botão).
+Na tela de consultar rescisão o botão Eliminar calculo da rescisão também não esta funcionando. (Anexo 02 - Tela e botão).
+
+🔧 Melhoria | OS #19941 — SUBIR BASE PARA PRODUÇÃO
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19942 — ERRO AO CONFERIR CALCULO
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19932 — CAMPO ARREDONDAMENTO - CADASTRO ESTABELECIMENTO
 
