@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (11/08/2026 a 26/08/2026)
+Últimos 15 dias (12/08/2026 a 27/08/2026)
 
-Atualizado em: 26/08/2026 09:05
+Atualizado em: 27/08/2026 12:34
 
 ---
 
@@ -37,10 +37,6 @@ Tirar a obrigatoriedade do campo pensão alimentícia sem adiantamento salario
 🔧 Melhoria | OS #19894 — EXCLUSÃO DE EMPRESAS / ESCOPA
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19897 — RECIBO DE FERIAS - ESTAGIARIO
-
-Existe férias calculadas com saida em 01/08/2026, porém na Nuvem não lista o recibo de ferias de estagiario.
 
 ✅ Correção | OS #19886 — BACKUP COM PROBLMEA NA NUVEM
 
@@ -85,11 +81,11 @@ Estou tentando enviar o evento S-1200 (ID =16243 ) o sistema mostra um erro. ERR
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #19892 — GERAÇÃO S-1210 / PENSÃO DE 13º SALÁRIO
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #19889 — E-SOCIAL / FÉRIAS / FALTAS
 
 Funcionário com férias 30 dias dentro do mês 07/2026, porém o cliente quer descontar faltas/DSR, e lançar um auxilio, fazendo o holerite do funcionário gerar estouro, no holerite
 Adcionar um campo novo na tabela de codigos especias na posição 1-84
+
+🔧 Melhoria | OS #19129 — MIGRAÇÃO FOLHA NUVEM - TEXINDUS VIVIANE
+
+⚠️ Em desenvolvimento...
