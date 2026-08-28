@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (12/08/2026 a 27/08/2026)
+Últimos 15 dias (13/08/2026 a 28/08/2026)
 
-Atualizado em: 27/08/2026 12:34
+Atualizado em: 28/08/2026 12:58
 
 ---
 
@@ -34,10 +34,6 @@ Em Movimentos / e-Consignado / Lançamentos: fiz o lançamento de um novo contra
 
 Tirar a obrigatoriedade do campo pensão alimentícia sem adiantamento salario
 
-🔧 Melhoria | OS #19894 — EXCLUSÃO DE EMPRESAS / ESCOPA
-
-⚠️ Em desenvolvimento...
-
 ✅ Correção | OS #19886 — BACKUP COM PROBLMEA NA NUVEM
 
 Não ta funcionando o backup, corrigir
@@ -64,22 +60,6 @@ Na geração do S-1210 (ID - 9408) da competência 08/2026 o sistema precisa ger
 🔧 Melhoria | OS #19919 — HOLERITE ELETRÔNICO - BRADESCO/BRADESCO 250 POS.
 
 (Prints 1 e 2) - Em Processamentos / Eletrônicos / Holerite Eletrônico: cliente solicitou inlcuir nos bancos BRADESCO e BRADESCO 250 POS. as opções para gerar sobre:
-
-✅ Correção | OS #19905 — GERAÇÃO S-1200 / TOMADOR POR RATEIO / FÉRIAS
-
-Na geração do S-1200 (ID = 62138) o funcionário está de férias, e o sistema não está gerando na TAG - FÉRIAS o evento 347 - Férias e-Social (na tabela ele é o código 2-49).
-
-✅ Correção | OS #19900 — GERAÇÃO DO S-1200 / AUTÔNOMO / POR RATEIO DE TOMADOR
-
-Na geração do S-1200 (ID = 60522) o sistema não está gerando o evento 100 - INSS (na tabela ele é o código 1-39) para o Autônomo 0002.
-
-✅ Correção | OS #19902 — GERAÇAÕ S-1200 / TOMADOR POR RATEIO
-
-Estou tentando enviar o evento S-1200 (ID =16243 ) o sistema mostra um erro. ERRO em anexo.
-
-🔧 Melhoria | OS #19895 — CONSULTA CADASTRO AUTONOMO
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19889 — E-SOCIAL / FÉRIAS / FALTAS
 
