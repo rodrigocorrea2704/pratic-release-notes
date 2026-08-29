@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (13/08/2026 a 28/08/2026)
+Últimos 15 dias (14/08/2026 a 29/08/2026)
 
-Atualizado em: 28/08/2026 12:58
+Atualizado em: 29/08/2026 09:02
 
 ---
 
@@ -60,11 +60,6 @@ Na geração do S-1210 (ID - 9408) da competência 08/2026 o sistema precisa ger
 🔧 Melhoria | OS #19919 — HOLERITE ELETRÔNICO - BRADESCO/BRADESCO 250 POS.
 
 (Prints 1 e 2) - Em Processamentos / Eletrônicos / Holerite Eletrônico: cliente solicitou inlcuir nos bancos BRADESCO e BRADESCO 250 POS. as opções para gerar sobre:
-
-🔧 Melhoria | OS #19889 — E-SOCIAL / FÉRIAS / FALTAS
-
-Funcionário com férias 30 dias dentro do mês 07/2026, porém o cliente quer descontar faltas/DSR, e lançar um auxilio, fazendo o holerite do funcionário gerar estouro, no holerite
-Adcionar um campo novo na tabela de codigos especias na posição 1-84
 
 🔧 Melhoria | OS #19129 — MIGRAÇÃO FOLHA NUVEM - TEXINDUS VIVIANE
 
