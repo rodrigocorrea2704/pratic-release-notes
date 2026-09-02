@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (17/08/2026 a 01/09/2026)
+Últimos 15 dias (18/08/2026 a 02/09/2026)
 
-Atualizado em: 01/09/2026 09:02
+Atualizado em: 02/09/2026 09:02
 
 ---
 
@@ -51,6 +51,14 @@ Na tela de Envio de mensagens de notificação, fazer todos os filtros de tela f
 / 2 / Em Relatórios / Contrato de Trabalho / Cadastro: estou editando apenas o TITULO do contrato, conforme no print já consta a borda preenchida porque esse contrato já veio
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19961 — ACUMULADO DE TRANSFERENCIA - FILIAIS
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19957 — MODULO PROCESSO TRABALHISTA - 2500 E 2501
+
+...Cliente solicitou liberação do módulo Processo Trabalhista, por favor enviar orçamento para email:
 
 🔧 Melhoria | OS #19955 — CONSIGNADO - FUNC AFASTADO
 
