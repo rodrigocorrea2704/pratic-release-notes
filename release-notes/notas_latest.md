@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (18/08/2026 a 02/09/2026)
+Últimos 15 dias (19/08/2026 a 03/09/2026)
 
-Atualizado em: 02/09/2026 09:02
+Atualizado em: 03/09/2026 09:02
 
 ---
 
@@ -46,11 +46,15 @@ Não ta funcionando o backup, corrigir
 
 Na tela de Envio de mensagens de notificação, fazer todos os filtros de tela funcionar adequadamente
 
-🔧 Melhoria | OS #19032 — GERADOR DE CONTRATO / WEB
-
-/ 2 / Em Relatórios / Contrato de Trabalho / Cadastro: estou editando apenas o TITULO do contrato, conforme no print já consta a borda preenchida porque esse contrato já veio
-
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19970 — GERAÇÃO CONTRATO EXPERIÊNCIA / GERAR CONTRATO
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19965 — TESTE SITE NOVO
+
+...TESTE -> [
 
 🔧 Melhoria | OS #19961 — ACUMULADO DE TRANSFERENCIA - FILIAIS
 
