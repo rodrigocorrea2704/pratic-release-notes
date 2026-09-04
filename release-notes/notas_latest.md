@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (19/08/2026 a 03/09/2026)
+Últimos 15 dias (20/08/2026 a 04/09/2026)
 
-Atualizado em: 03/09/2026 09:02
+Atualizado em: 04/09/2026 09:02
 
 ---
 
@@ -23,24 +23,6 @@ Na tela de consultar rescisão o botão Eliminar calculo da rescisão também n�
 🔧 Melhoria | OS #19932 — CAMPO ARREDONDAMENTO - CADASTRO ESTABELECIMENTO
 
 Acrescentar campo Arredondamento Salários no Sistema Nuvem na tela (Cadastro / Estabelecimento / Ação / Parametros Calculos) (ANEXO 01 - Caminho e tela),
-
-🔧 Melhoria | OS #19904 — E-CONSIGNADO / DADOS RESCISÓRIOS
-
-Em Movimentos / e-Consignado / Lançamentos: fiz o lançamento de um novo contrato, e informei os campos novos, se "possui garantia FGTS", "saldo devedor" e o "% 
-.1 - Incluir os campos novos no grid da consulta;
-.2 - Adicionar uma opção para conseguir editar um contrato já lançado.
-
-🔧 Melhoria | OS #19901 — TIRAR O OBRIGATORIEDADE DESSE CAMPO
-
-Tirar a obrigatoriedade do campo pensão alimentícia sem adiantamento salario
-
-✅ Correção | OS #19886 — BACKUP COM PROBLMEA NA NUVEM
-
-Não ta funcionando o backup, corrigir
-
-🔧 Melhoria | OS #19881 — SOLICITAÇÃO / CÁLCULO RESCISÃO / BOTÃO FALTAS
-
-⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #19727 — APP HOLERITE - AJUSTE O FILTRO NO SITE PARA ENVIO DE MENSAGENS
 
