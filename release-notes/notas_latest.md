@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (20/08/2026 a 04/09/2026)
+Últimos 15 dias (21/08/2026 a 05/09/2026)
 
-Atualizado em: 04/09/2026 09:02
+Atualizado em: 05/09/2026 09:01
 
 ---
 
@@ -30,6 +30,14 @@ Na tela de Envio de mensagens de notificação, fazer todos os filtros de tela f
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
+🔧 Melhoria | OS #19975 — GERAÇÃO S-1210 / RESCISÃO COMPLEMENTAR
+
+Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO com o <perRef> errado, precisa ser 06/2026 e o sistema está gerando como 05/2026.
+
+🔧 Melhoria | OS #19971 — RUBRICA 1/3 FERIAS  - XML 2299
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #19970 — GERAÇÃO CONTRATO EXPERIÊNCIA / GERAR CONTRATO
 
 ⚠️ Em desenvolvimento...
@@ -49,15 +57,6 @@ Na tela de Envio de mensagens de notificação, fazer todos os filtros de tela f
 🔧 Melhoria | OS #19955 — CONSIGNADO - FUNC AFASTADO
 
 ⚠️ Em desenvolvimento...
-
-✅ Correção | OS #19928 — GERAÇÃO S-2299 COM FÉRIAS
-
-Na geração do S-2299 (ID - 9424) o sistema está gerando somente o evento 1/3 de férias, os demais eventos 11-Férias Gozadas e 33-Médias de Férias não
-Na geração do S-1210 (ID - 9408) da competência 08/2026 o sistema precisa gerar a TAG - FÉRIAS e a TAG = tpPgto = 2
-
-🔧 Melhoria | OS #19919 — HOLERITE ELETRÔNICO - BRADESCO/BRADESCO 250 POS.
-
-(Prints 1 e 2) - Em Processamentos / Eletrônicos / Holerite Eletrônico: cliente solicitou inlcuir nos bancos BRADESCO e BRADESCO 250 POS. as opções para gerar sobre:
 
 🔧 Melhoria | OS #19129 — MIGRAÇÃO FOLHA NUVEM - TEXINDUS VIVIANE
 
