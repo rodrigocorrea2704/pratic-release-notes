@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (21/08/2026 a 05/09/2026)
+Últimos 15 dias (23/08/2026 a 07/09/2026)
 
-Atualizado em: 05/09/2026 09:01
+Atualizado em: 07/09/2026 09:02
 
 ---
 
@@ -19,14 +19,6 @@ Na tela de consultar rescisão o botão Eliminar calculo da rescisão também n�
 🔧 Melhoria | OS #19942 — ERRO AO CONFERIR CALCULO
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19932 — CAMPO ARREDONDAMENTO - CADASTRO ESTABELECIMENTO
-
-Acrescentar campo Arredondamento Salários no Sistema Nuvem na tela (Cadastro / Estabelecimento / Ação / Parametros Calculos) (ANEXO 01 - Caminho e tela),
-
-✅ Correção | OS #19727 — APP HOLERITE - AJUSTE O FILTRO NO SITE PARA ENVIO DE MENSAGENS
-
-Na tela de Envio de mensagens de notificação, fazer todos os filtros de tela funcionar adequadamente
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
