@@ -1,11 +1,16 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (23/08/2026 a 07/09/2026)
+Últimos 15 dias (24/08/2026 a 08/09/2026)
 
-Atualizado em: 07/09/2026 09:02
+Atualizado em: 08/09/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #19952 — PAGAMENTO BANCARIO PIX PENSAO
+
+No pagamento eletronico bancario BRADESCO PAGFOR PIX adicionar 3 opções novas A-B-C
+Quando eu pesquisar por banco mostrar também os geradores bancarios de holerites
 
 ✅ Correção | OS #19943 — BOTÃO REMOVER - TELA LANÇAMENTOS CONSIGNADOS (NUVEM)
 
