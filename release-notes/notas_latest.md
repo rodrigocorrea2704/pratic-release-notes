@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (24/08/2026 a 08/09/2026)
+Últimos 15 dias (25/08/2026 a 09/09/2026)
 
-Atualizado em: 08/09/2026 09:02
+Atualizado em: 09/09/2026 09:02
 
 ---
 
@@ -17,15 +17,12 @@ Quando eu pesquisar por banco mostrar também os geradores bancarios de holerite
 Na tela de Lançamento Consignado na Nuvem o botão Remover não esta funcionando.(Anexo 01 - tela e botão).
 Na tela de consultar rescisão o botão Eliminar calculo da rescisão também não esta funcionando. (Anexo 02 - Tela e botão).
 
-🔧 Melhoria | OS #19941 — SUBIR BASE PARA PRODUÇÃO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19942 — ERRO AO CONFERIR CALCULO
-
-⚠️ Em desenvolvimento...
-
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+✅ Correção | OS #19980 — FERIAS GOZADAS - XML S-1200
+
+O sistema esta duplicando envio do evento 251 - Ferias Gozadas no xml do S-1200 (ele esta indo no cod 61 - Ferias (e-social) posição na tab 2-49 e no cód dele mesmo o 251).
+O sistema nao esta levando o evento de INSS S/ FERIAS cod 519 no xml do S-1200.
 
 🔧 Melhoria | OS #19975 — GERAÇÃO S-1210 / RESCISÃO COMPLEMENTAR
 
