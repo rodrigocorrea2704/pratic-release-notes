@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (25/08/2026 a 09/09/2026)
+Últimos 15 dias (26/08/2026 a 10/09/2026)
 
-Atualizado em: 09/09/2026 09:02
+Atualizado em: 10/09/2026 09:02
 
 ---
 
@@ -12,12 +12,11 @@ Atualizado em: 09/09/2026 09:02
 No pagamento eletronico bancario BRADESCO PAGFOR PIX adicionar 3 opções novas A-B-C
 Quando eu pesquisar por banco mostrar também os geradores bancarios de holerites
 
-✅ Correção | OS #19943 — BOTÃO REMOVER - TELA LANÇAMENTOS CONSIGNADOS (NUVEM)
-
-Na tela de Lançamento Consignado na Nuvem o botão Remover não esta funcionando.(Anexo 01 - tela e botão).
-Na tela de consultar rescisão o botão Eliminar calculo da rescisão também não esta funcionando. (Anexo 02 - Tela e botão).
-
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #19989 — GERAÇÃO S-1200 / TOMADOR POR RATEIO FÉRIAS
+
+⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #19980 — FERIAS GOZADAS - XML S-1200
 
@@ -27,10 +26,6 @@ O sistema nao esta levando o evento de INSS S/ FERIAS cod 519 no xml do S-1200.
 🔧 Melhoria | OS #19975 — GERAÇÃO S-1210 / RESCISÃO COMPLEMENTAR
 
 Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO com o <perRef> errado, precisa ser 06/2026 e o sistema está gerando como 05/2026.
-
-🔧 Melhoria | OS #19971 — RUBRICA 1/3 FERIAS  - XML 2299
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19970 — GERAÇÃO CONTRATO EXPERIÊNCIA / GERAR CONTRATO
 
