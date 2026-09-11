@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (26/08/2026 a 10/09/2026)
+Últimos 15 dias (27/08/2026 a 11/09/2026)
 
-Atualizado em: 10/09/2026 09:02
+Atualizado em: 11/09/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #19973 — Banco Salomão
+
+Preciso do banco para isolar as empresas do salomão
 
 🔧 Melhoria | OS #19952 — PAGAMENTO BANCARIO PIX PENSAO
 
@@ -44,9 +48,5 @@ Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO
 ...Cliente solicitou liberação do módulo Processo Trabalhista, por favor enviar orçamento para email:
 
 🔧 Melhoria | OS #19955 — CONSIGNADO - FUNC AFASTADO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19129 — MIGRAÇÃO FOLHA NUVEM - TEXINDUS VIVIANE
 
 ⚠️ Em desenvolvimento...
