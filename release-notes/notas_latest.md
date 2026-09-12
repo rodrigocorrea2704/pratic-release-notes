@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (27/08/2026 a 11/09/2026)
+Últimos 15 dias (28/08/2026 a 12/09/2026)
 
-Atualizado em: 11/09/2026 09:02
+Atualizado em: 12/09/2026 09:01
 
 ---
 
@@ -18,6 +18,18 @@ Quando eu pesquisar por banco mostrar também os geradores bancarios de holerite
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
+🔧 Melhoria | OS #20000 — ATUALIZAR BANCO - ERRO CADASTRO EVENTO
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20002 — CADASTRO AUTÔNOMO / SEM INSCRIÇÃO INSS
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19995 — BASE FGTS - ADMITIDO MES AFASTADO ACIDENTE
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #19989 — GERAÇÃO S-1200 / TOMADOR POR RATEIO FÉRIAS
 
 ⚠️ Em desenvolvimento...
@@ -30,6 +42,10 @@ O sistema nao esta levando o evento de INSS S/ FERIAS cod 519 no xml do S-1200.
 🔧 Melhoria | OS #19975 — GERAÇÃO S-1210 / RESCISÃO COMPLEMENTAR
 
 Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO com o <perRef> errado, precisa ser 06/2026 e o sistema está gerando como 05/2026.
+
+🔧 Melhoria | OS #19971 — RUBRICA 1/3 FERIAS  - XML 2299
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19970 — GERAÇÃO CONTRATO EXPERIÊNCIA / GERAR CONTRATO
 
@@ -48,5 +64,9 @@ Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO
 ...Cliente solicitou liberação do módulo Processo Trabalhista, por favor enviar orçamento para email:
 
 🔧 Melhoria | OS #19955 — CONSIGNADO - FUNC AFASTADO
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19899 — INTEGRAÇÃO VAI API
 
 ⚠️ Em desenvolvimento...
