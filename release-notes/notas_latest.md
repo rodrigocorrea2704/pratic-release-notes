@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (30/08/2026 a 14/09/2026)
+Últimos 15 dias (31/08/2026 a 15/09/2026)
 
-Atualizado em: 14/09/2026 09:02
+Atualizado em: 15/09/2026 09:02
 
 ---
 
@@ -15,6 +15,10 @@ Preciso do banco para isolar as empresas do salomão
 
 No pagamento eletronico bancario BRADESCO PAGFOR PIX adicionar 3 opções novas A-B-C
 Quando eu pesquisar por banco mostrar também os geradores bancarios de holerites
+
+🔧 Melhoria | OS #19936 — Ajuste no estilo da folha
+
+Ajustando o layout do prime faces do site, quando mudamos cores ou estilo do menu, o estilo no site quebra
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
