@@ -1,11 +1,31 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (31/08/2026 a 15/09/2026)
+Últimos 15 dias (01/09/2026 a 16/09/2026)
 
-Atualizado em: 15/09/2026 09:02
+Atualizado em: 16/09/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20023 — ALTERAR CATEGORIA SEFIP E VINCULO - APRENDIZES
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20020 — teste
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20022 — teste
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20021 — teste
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19991 — PESQUISA USUÁRIOS / FOLHA NUVEM
+
+Em Preferências / Usuário: Na busca de usuários, quando faço a pesquisa por nome ele nao acha a pessoa, digitei LARA e o sistema não localiza, e a mesma esta cadastrada no sistema.
 
 🔧 Melhoria | OS #19973 — Banco Salomão
 
@@ -21,6 +41,14 @@ Quando eu pesquisar por banco mostrar também os geradores bancarios de holerite
 Ajustando o layout do prime faces do site, quando mudamos cores ou estilo do menu, o estilo no site quebra
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20024 — S-1200 DE FUNC TRANSFERIDO ENTRE FILIAIS
+
+⚠️ Em desenvolvimento...
+
+✅ Correção | OS #20001 — LISTAGEM RECIBO DE FÉRIAS MODELO 2
+
+Em Relatórios / Férias / Recibo de Férias - modelo: "Recibo de Férias - Modelo 2", estou tentando fazer a listagem desse recibo de férias, e o sistema mostra um erro.
 
 🔧 Melhoria | OS #20000 — ATUALIZAR BANCO - ERRO CADASTRO EVENTO
 
@@ -66,10 +94,6 @@ Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO
 🔧 Melhoria | OS #19957 — MODULO PROCESSO TRABALHISTA - 2500 E 2501
 
 ...Cliente solicitou liberação do módulo Processo Trabalhista, por favor enviar orçamento para email:
-
-🔧 Melhoria | OS #19955 — CONSIGNADO - FUNC AFASTADO
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19899 — INTEGRAÇÃO VAI API
 
