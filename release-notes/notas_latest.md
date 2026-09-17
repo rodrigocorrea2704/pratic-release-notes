@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (01/09/2026 a 16/09/2026)
+Últimos 15 dias (02/09/2026 a 17/09/2026)
 
-Atualizado em: 16/09/2026 09:02
+Atualizado em: 17/09/2026 09:02
 
 ---
 
@@ -86,14 +86,6 @@ Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO
 🔧 Melhoria | OS #19965 — TESTE SITE NOVO
 
 ...TESTE -> [
-
-🔧 Melhoria | OS #19961 — ACUMULADO DE TRANSFERENCIA - FILIAIS
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19957 — MODULO PROCESSO TRABALHISTA - 2500 E 2501
-
-...Cliente solicitou liberação do módulo Processo Trabalhista, por favor enviar orçamento para email:
 
 🔧 Melhoria | OS #19899 — INTEGRAÇÃO VAI API
 
