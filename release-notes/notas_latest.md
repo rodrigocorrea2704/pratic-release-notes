@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (02/09/2026 a 17/09/2026)
+Últimos 15 dias (03/09/2026 a 18/09/2026)
 
-Atualizado em: 17/09/2026 09:02
+Atualizado em: 18/09/2026 09:02
 
 ---
 
@@ -78,14 +78,6 @@ Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO
 🔧 Melhoria | OS #19971 — RUBRICA 1/3 FERIAS  - XML 2299
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19970 — GERAÇÃO CONTRATO EXPERIÊNCIA / GERAR CONTRATO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19965 — TESTE SITE NOVO
-
-...TESTE -> [
 
 🔧 Melhoria | OS #19899 — INTEGRAÇÃO VAI API
 
