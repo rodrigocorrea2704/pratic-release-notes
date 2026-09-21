@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (04/09/2026 a 19/09/2026)
+Últimos 15 dias (06/09/2026 a 21/09/2026)
 
-Atualizado em: 19/09/2026 09:01
+Atualizado em: 21/09/2026 09:01
 
 ---
 
@@ -70,10 +70,6 @@ Em Relatórios / Férias / Recibo de Férias - modelo: "Recibo de Férias - Mode
 
 O sistema esta duplicando envio do evento 251 - Ferias Gozadas no xml do S-1200 (ele esta indo no cod 61 - Ferias (e-social) posição na tab 2-49 e no cód dele mesmo o 251).
 O sistema nao esta levando o evento de INSS S/ FERIAS cod 519 no xml do S-1200.
-
-🔧 Melhoria | OS #19975 — GERAÇÃO S-1210 / RESCISÃO COMPLEMENTAR
-
-Na geração do S-1210 (ID = 60526), o sistema está gerando a TAG - COMPLEMENTO com o <perRef> errado, precisa ser 06/2026 e o sistema está gerando como 05/2026.
 
 🔧 Melhoria | OS #19971 — RUBRICA 1/3 FERIAS  - XML 2299
 
