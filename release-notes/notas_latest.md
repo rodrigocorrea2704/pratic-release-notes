@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (06/09/2026 a 21/09/2026)
+Últimos 15 dias (07/09/2026 a 22/09/2026)
 
-Atualizado em: 21/09/2026 09:01
+Atualizado em: 22/09/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20042 — CADASTRO NOVO USUARIO NUVEM - BASE ITAPOLIS
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20023 — ALTERAR CATEGORIA SEFIP E VINCULO - APRENDIZES
 
@@ -23,9 +27,17 @@ Atualizado em: 21/09/2026 09:01
 
 ⚠️ Em desenvolvimento...
 
+🔧 Melhoria | OS #20012 — Relatorio de movimento em paisagem
+
+Adcionar listagem em paisagem para conseguir aumentar um pouco a Fonte do relatório e não estourar tanto os limetes da pagina
+
 🔧 Melhoria | OS #19991 — PESQUISA USUÁRIOS / FOLHA NUVEM
 
 Em Preferências / Usuário: Na busca de usuários, quando faço a pesquisa por nome ele nao acha a pessoa, digitei LARA e o sistema não localiza, e a mesma esta cadastrada no sistema.
+
+🔧 Melhoria | OS #19988 — Relatório para conferencia eConsignado 
+
+ajustar parametros a baixo
 
 🔧 Melhoria | OS #19973 — Banco Salomão
 
@@ -41,6 +53,14 @@ Quando eu pesquisar por banco mostrar também os geradores bancarios de holerite
 Ajustando o layout do prime faces do site, quando mudamos cores ou estilo do menu, o estilo no site quebra
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+✅ Correção | OS #20040 — Não mostra exames cadastrados
+
+Não esta mostrando os exames cadastrados, só ta mostrando os novos cadastros
+
+🔧 Melhoria | OS #20037 — TELA CONFIGURAÇÃO - SETUP
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20024 — S-1200 DE FUNC TRANSFERIDO ENTRE FILIAIS
 

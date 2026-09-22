@@ -687,6 +687,37 @@
       "dataProcessamento": "16/09/2026 09:02",
       "incluida": false,
       "motivo": "interno"
+    },
+    {
+      "oseCod": "20037",
+      "dataProcessamento": "22/09/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20042",
+      "dataProcessamento": "22/09/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20039",
+      "dataProcessamento": "22/09/2026 09:01",
+      "incluida": false,
+      "motivo": "interno"
+    },
+    {
+      "oseCod": "20040",
+      "dataProcessamento": "22/09/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "19988",
+      "dataProcessamento": "22/09/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20012",
+      "dataProcessamento": "22/09/2026 09:01",
+      "incluida": true
     }
   ]
 }
