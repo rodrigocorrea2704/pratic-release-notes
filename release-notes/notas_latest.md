@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (07/09/2026 a 22/09/2026)
+Últimos 15 dias (08/09/2026 a 23/09/2026)
 
-Atualizado em: 22/09/2026 09:01
+Atualizado em: 23/09/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20051 — RECIBO 13 TRANSFERENCIA
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20042 — CADASTRO NOVO USUARIO NUVEM - BASE ITAPOLIS
 
