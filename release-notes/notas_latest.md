@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (08/09/2026 a 23/09/2026)
+Últimos 15 dias (09/09/2026 a 24/09/2026)
 
-Atualizado em: 23/09/2026 09:02
+Atualizado em: 24/09/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20052 — IMPORTAÇÃO PERIODOS AQUISITIVOS FERIAS
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20051 — RECIBO 13 TRANSFERENCIA
 
@@ -39,18 +43,9 @@ Adcionar listagem em paisagem para conseguir aumentar um pouco a Fonte do relat�
 
 Em Preferências / Usuário: Na busca de usuários, quando faço a pesquisa por nome ele nao acha a pessoa, digitei LARA e o sistema não localiza, e a mesma esta cadastrada no sistema.
 
-🔧 Melhoria | OS #19988 — Relatório para conferencia eConsignado 
-
-ajustar parametros a baixo
-
 🔧 Melhoria | OS #19973 — Banco Salomão
 
 Preciso do banco para isolar as empresas do salomão
-
-🔧 Melhoria | OS #19952 — PAGAMENTO BANCARIO PIX PENSAO
-
-No pagamento eletronico bancario BRADESCO PAGFOR PIX adicionar 3 opções novas A-B-C
-Quando eu pesquisar por banco mostrar também os geradores bancarios de holerites
 
 🔧 Melhoria | OS #19936 — Ajuste no estilo da folha
 
@@ -89,11 +84,6 @@ Em Relatórios / Férias / Recibo de Férias - modelo: "Recibo de Férias - Mode
 🔧 Melhoria | OS #19989 — GERAÇÃO S-1200 / TOMADOR POR RATEIO FÉRIAS
 
 ⚠️ Em desenvolvimento...
-
-✅ Correção | OS #19980 — FERIAS GOZADAS - XML S-1200
-
-O sistema esta duplicando envio do evento 251 - Ferias Gozadas no xml do S-1200 (ele esta indo no cod 61 - Ferias (e-social) posição na tab 2-49 e no cód dele mesmo o 251).
-O sistema nao esta levando o evento de INSS S/ FERIAS cod 519 no xml do S-1200.
 
 🔧 Melhoria | OS #19971 — RUBRICA 1/3 FERIAS  - XML 2299
 
