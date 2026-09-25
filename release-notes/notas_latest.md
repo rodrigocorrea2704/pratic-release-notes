@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (09/09/2026 a 24/09/2026)
+Últimos 15 dias (10/09/2026 a 25/09/2026)
 
-Atualizado em: 24/09/2026 09:01
+Atualizado em: 25/09/2026 09:02
 
 ---
 
@@ -52,6 +52,10 @@ Preciso do banco para isolar as empresas do salomão
 Ajustando o layout do prime faces do site, quando mudamos cores ou estilo do menu, o estilo no site quebra
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20071 — ERRO LISTAGEM FERIAS POR PERIODO
+
+⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #20040 — Não mostra exames cadastrados
 
