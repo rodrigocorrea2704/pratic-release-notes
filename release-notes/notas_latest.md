@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (10/09/2026 a 25/09/2026)
+Últimos 15 dias (11/09/2026 a 26/09/2026)
 
-Atualizado em: 25/09/2026 09:02
+Atualizado em: 26/09/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20064 — ADCIONAL DE INSALUBRIDADE NO CALCULO DE FERIAS
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20052 — IMPORTAÇÃO PERIODOS AQUISITIVOS FERIAS
 
@@ -82,10 +86,6 @@ Em Relatórios / Férias / Recibo de Férias - modelo: "Recibo de Férias - Mode
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19995 — BASE FGTS - ADMITIDO MES AFASTADO ACIDENTE
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #19989 — GERAÇÃO S-1200 / TOMADOR POR RATEIO FÉRIAS
 
 ⚠️ Em desenvolvimento...
 
