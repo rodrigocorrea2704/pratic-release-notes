@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (13/09/2026 a 28/09/2026)
+Últimos 15 dias (14/09/2026 a 29/09/2026)
 
-Atualizado em: 28/09/2026 09:02
+Atualizado em: 29/09/2026 09:02
 
 ---
 
@@ -22,6 +22,10 @@ Atualizado em: 28/09/2026 09:02
 🔧 Melhoria | OS #20042 — CADASTRO NOVO USUARIO NUVEM - BASE ITAPOLIS
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20036 — Sicred Pix
+
+Fazer o banco eletronico Sicred Pix, usei como modelo a o sicred normal como modelo
 
 🔧 Melhoria | OS #20023 — ALTERAR CATEGORIA SEFIP E VINCULO - APRENDIZES
 
@@ -47,11 +51,20 @@ Adcionar listagem em paisagem para conseguir aumentar um pouco a Fonte do relat�
 
 Em Preferências / Usuário: Na busca de usuários, quando faço a pesquisa por nome ele nao acha a pessoa, digitei LARA e o sistema não localiza, e a mesma esta cadastrada no sistema.
 
+🔧 Melhoria | OS #19988 — Relatório para conferencia eConsignado 
+
+ajustar parametros a baixo
+colocar um totalizador por funcionario nos dois relatórios
+
 🔧 Melhoria | OS #19936 — Ajuste no estilo da folha
 
 Ajustando o layout do prime faces do site, quando mudamos cores ou estilo do menu, o estilo no site quebra
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20077 — BANCO ELETRONICO BRADESCO - LIQUIDO PLR FIL 2
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20071 — ERRO LISTAGEM FERIAS POR PERIODO
 
@@ -62,6 +75,10 @@ Ajustando o layout do prime faces do site, quando mudamos cores ou estilo do men
 Não esta mostrando os exames cadastrados, só ta mostrando os novos cadastros
 
 🔧 Melhoria | OS #20037 — TELA CONFIGURAÇÃO - SETUP
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20018 — S-1010 / NOVOS CÓDIGO CP (INSS) / LICENÇA PATERNIDADE
 
 ⚠️ Em desenvolvimento...
 
