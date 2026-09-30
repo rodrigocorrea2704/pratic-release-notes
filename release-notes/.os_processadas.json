@@ -765,6 +765,17 @@
       "oseCod": "20018",
       "dataProcessamento": "29/09/2026 09:02",
       "incluida": true
+    },
+    {
+      "oseCod": "20085",
+      "dataProcessamento": "30/09/2026 09:02",
+      "incluida": false,
+      "motivo": "interno"
+    },
+    {
+      "oseCod": "19967",
+      "dataProcessamento": "30/09/2026 09:02",
+      "incluida": true
     }
   ]
 }
