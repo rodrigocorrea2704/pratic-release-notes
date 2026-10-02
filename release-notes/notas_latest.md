@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (16/09/2026 a 01/10/2026)
+Últimos 15 dias (17/09/2026 a 02/10/2026)
 
-Atualizado em: 01/10/2026 09:02
+Atualizado em: 02/10/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20097 — CALCULO DE INSALUBRIDADE - FALTAS
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20088 — COD DO COLABORADOR - FERNANDOPOLIS
 
@@ -45,6 +49,10 @@ ajustar parametros a baixo
 colocar um totalizador por funcionario nos dois relatórios
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20086 — Férias paga em Rescisão
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20077 — BANCO ELETRONICO BRADESCO - LIQUIDO PLR FIL 2
 
