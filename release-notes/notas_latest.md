@@ -1,13 +1,13 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (17/09/2026 a 02/10/2026)
+Últimos 15 dias (18/09/2026 a 03/10/2026)
 
-Atualizado em: 02/10/2026 09:02
+Atualizado em: 03/10/2026 10:26
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
 
-🔧 Melhoria | OS #20097 — CALCULO DE INSALUBRIDADE - FALTAS
+🔧 Melhoria | OS #20092 — ERRO - DUPLICAÇÃO DE COLABORADOR NUVEM
 
 ⚠️ Em desenvolvimento...
 
