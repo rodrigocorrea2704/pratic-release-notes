@@ -801,6 +801,17 @@
       "oseCod": "20092",
       "dataProcessamento": "03/10/2026 10:26",
       "incluida": true
+    },
+    {
+      "oseCod": "20100",
+      "dataProcessamento": "06/10/2026 09:02",
+      "incluida": false,
+      "motivo": "interno"
+    },
+    {
+      "oseCod": "20083",
+      "dataProcessamento": "06/10/2026 09:02",
+      "incluida": true
     }
   ]
 }

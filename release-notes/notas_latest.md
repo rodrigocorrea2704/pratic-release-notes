@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (20/09/2026 a 05/10/2026)
+Últimos 15 dias (21/09/2026 a 06/10/2026)
 
-Atualizado em: 05/10/2026 09:02
+Atualizado em: 06/10/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20097 — CALCULO DE INSALUBRIDADE - FALTAS
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20092 — ERRO - DUPLICAÇÃO DE COLABORADOR NUVEM
 
@@ -18,6 +22,10 @@ Atualizado em: 05/10/2026 09:02
 🔧 Melhoria | OS #20084 — BANCO ELETRONICO - PARAMETRO TRANSMISSAO
 
 Cliente precisa gerar banco eletronico de uma rescisão e na Nuvem nao consta os campos: Parametro Transmissão / Cod Compromisso / Aviso ao Favorecido /
+
+🔧 Melhoria | OS #20083 — MEDIAS FERIAS
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20064 — ADCIONAL DE INSALUBRIDADE NO CALCULO DE FERIAS
 
