@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (21/09/2026 a 06/10/2026)
+Últimos 15 dias (22/09/2026 a 07/10/2026)
 
-Atualizado em: 06/10/2026 09:02
+Atualizado em: 07/10/2026 09:02
 
 ---
 
@@ -39,17 +39,9 @@ Cliente precisa gerar banco eletronico de uma rescisão e na Nuvem nao consta os
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20042 — CADASTRO NOVO USUARIO NUVEM - BASE ITAPOLIS
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #20036 — Sicred Pix
 
 Fazer o banco eletronico Sicred Pix, usei como modelo a o sicred normal como modelo
-
-🔧 Melhoria | OS #20012 — Relatorio de movimento em paisagem
-
-Adcionar listagem em paisagem para conseguir aumentar um pouco a Fonte do relatório e não estourar tanto os limetes da pagina
 
 🔧 Melhoria | OS #19988 — Relatório para conferencia eConsignado 
 
@@ -67,14 +59,6 @@ colocar um totalizador por funcionario nos dois relatórios
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20071 — ERRO LISTAGEM FERIAS POR PERIODO
-
-⚠️ Em desenvolvimento...
-
-✅ Correção | OS #20040 — Não mostra exames cadastrados
-
-Não esta mostrando os exames cadastrados, só ta mostrando os novos cadastros
-
-🔧 Melhoria | OS #20037 — TELA CONFIGURAÇÃO - SETUP
 
 ⚠️ Em desenvolvimento...
 
