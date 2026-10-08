@@ -1,11 +1,19 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (22/09/2026 a 07/10/2026)
+Últimos 15 dias (23/09/2026 a 08/10/2026)
 
-Atualizado em: 07/10/2026 09:02
+Atualizado em: 08/10/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20118 — Sexagesimal no calculo de atraso
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20104 — RELATORIO DE MOVIMENTOS - MULTIPLOS EVENTOS FILTRO
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20097 — CALCULO DE INSALUBRIDADE - FALTAS
 
@@ -38,6 +46,10 @@ Cliente precisa gerar banco eletronico de uma rescisão e na Nuvem nao consta os
 🔧 Melhoria | OS #20051 — RECIBO 13 TRANSFERENCIA
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20046 — INCLUIR NUVEM - CAMPO REGISTRO PROFISSIONAL
+
+Incluir campos Nome do Conselho e Nº Registro dos dados de Registro Profissional do cadastro colaborador na Nuvem.
 
 🔧 Melhoria | OS #20036 — Sicred Pix
 
