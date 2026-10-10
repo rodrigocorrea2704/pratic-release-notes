@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (24/09/2026 a 09/10/2026)
+Últimos 15 dias (25/09/2026 a 10/10/2026)
 
-Atualizado em: 09/10/2026 09:02
+Atualizado em: 10/10/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20149 — EXCLUIR REGISTRO FUNCIONARIO - ERRO
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20120 — Relatorio Banco - Pagto PIX
 
@@ -79,10 +83,6 @@ colocar um totalizador por funcionario nos dois relatórios
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20077 — BANCO ELETRONICO BRADESCO - LIQUIDO PLR FIL 2
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20071 — ERRO LISTAGEM FERIAS POR PERIODO
 
 ⚠️ Em desenvolvimento...
 
