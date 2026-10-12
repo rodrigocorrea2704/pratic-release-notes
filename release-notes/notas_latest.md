@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (25/09/2026 a 10/10/2026)
+Últimos 15 dias (27/09/2026 a 12/10/2026)
 
-Atualizado em: 10/10/2026 09:02
+Atualizado em: 12/10/2026 09:04
 
 ---
 
@@ -40,10 +40,6 @@ Atualizado em: 10/10/2026 09:02
 Cliente precisa gerar banco eletronico de uma rescisão e na Nuvem nao consta os campos: Parametro Transmissão / Cod Compromisso / Aviso ao Favorecido /
 
 🔧 Melhoria | OS #20083 — MEDIAS FERIAS
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20064 — ADCIONAL DE INSALUBRIDADE NO CALCULO DE FERIAS
 
 ⚠️ Em desenvolvimento...
 
