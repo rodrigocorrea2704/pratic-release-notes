@@ -863,6 +863,36 @@
       "dataProcessamento": "13/10/2026 09:03",
       "incluida": false,
       "motivo": "interno"
+    },
+    {
+      "oseCod": "20139",
+      "dataProcessamento": "14/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20116",
+      "dataProcessamento": "14/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20145",
+      "dataProcessamento": "14/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20147",
+      "dataProcessamento": "14/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20132",
+      "dataProcessamento": "14/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20156",
+      "dataProcessamento": "14/10/2026 09:02",
+      "incluida": true
     }
   ]
 }

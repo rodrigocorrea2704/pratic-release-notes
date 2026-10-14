@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (28/09/2026 a 13/10/2026)
+Últimos 15 dias (29/09/2026 a 14/10/2026)
 
-Atualizado em: 13/10/2026 09:03
+Atualizado em: 14/10/2026 09:02
 
 ---
 
@@ -10,6 +10,22 @@ Atualizado em: 13/10/2026 09:03
 🔧 Melhoria | OS #20149 — EXCLUIR REGISTRO FUNCIONARIO - ERRO
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20139 — Listagem Folha Completa - Parametro Quebra "Manual"
+
+Na listagem de Folha Completa da Nuvem, tela [ 1 - colado-20261008-082121.png ] quando informado tipo de quebra "Manualmente"
+
+🔧 Melhoria | OS #20145 — Retorno Maternidade Socia - Nuvem
+
+Precisa confirmar retorno de afastamento maternidade de SOCIA [ 1 - colado-20261008-120222.png ]
+
+🔧 Melhoria | OS #20147 — ADICIONAL NOTURNO 60% - SANTA JULIETA
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20116 — HOLERITE COMPLETO - NOME DOS CAMPOS
+
+Na base Produção (no cliente) o Holerite Completo esta saindo faltando os nomes dos campos, exemplo: Base Inss, FGTS, IR;
 
 🔧 Melhoria | OS #20120 — Relatorio Banco - Pagto PIX
 
@@ -43,28 +59,23 @@ Cliente precisa gerar banco eletronico de uma rescisão e na Nuvem nao consta os
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20052 — IMPORTAÇÃO PERIODOS AQUISITIVOS FERIAS
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #20046 — INCLUIR NUVEM - CAMPO REGISTRO PROFISSIONAL
 
 Incluir campos Nome do Conselho e Nº Registro dos dados de Registro Profissional do cadastro colaborador na Nuvem.
 
-🔧 Melhoria | OS #20036 — Sicred Pix
-
-Fazer o banco eletronico Sicred Pix, usei como modelo a o sicred normal como modelo
-
-🔧 Melhoria | OS #19988 — Relatório para conferencia eConsignado 
-
-ajustar parametros a baixo
-colocar um totalizador por funcionario nos dois relatórios
-
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20156 — Férias em dobro com Abono
+
+Em Processamentos / Férias / Calcular Férias: estou fazendo férias com saída dia 01/10/2026 com Abono DT, esse funcionário tem FÉRIAS EM DOBRO e o valor do evento 427, precisa ser R$ 2.000,00 ref. apenas a 20 dias e o sistema está apurando 30 dias. [ 1 - colado-20261009-171602.png ]
 
 🔧 Melhoria | OS #20140 — Geração S-2299 com Férias
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20132 — Alteração Quadro de Horário / Criação do S-2206
+
+Em Cadastro / Colaboradores / Quadro de Horário / Genérico: estou fazendo alteração do campo "Descrição da Jornada" e o sistema criou o S-2206 somente para a empresa 0001, porém na empresa 0092 o funcionário 9 também tem o quadro 26, então o sistema precisa criar o S-2206 e não criou, por favor verificar o motivo.
 
 🔧 Melhoria | OS #20135 — Emissão Aviso de Férias com Abono / Férias Programadas
 
@@ -79,10 +90,6 @@ colocar um totalizador por funcionario nos dois relatórios
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20077 — BANCO ELETRONICO BRADESCO - LIQUIDO PLR FIL 2
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20018 — S-1010 / NOVOS CÓDIGO CP (INSS) / LICENÇA PATERNIDADE
 
 ⚠️ Em desenvolvimento...
 
