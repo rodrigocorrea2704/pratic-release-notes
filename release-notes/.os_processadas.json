@@ -893,6 +893,22 @@
       "oseCod": "20156",
       "dataProcessamento": "14/10/2026 09:02",
       "incluida": true
+    },
+    {
+      "oseCod": "20166",
+      "dataProcessamento": "15/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20067",
+      "dataProcessamento": "15/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20129",
+      "dataProcessamento": "15/10/2026 09:02",
+      "incluida": false,
+      "motivo": "interno"
     }
   ]
 }

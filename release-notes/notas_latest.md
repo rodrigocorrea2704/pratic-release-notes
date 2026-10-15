@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (29/09/2026 a 14/10/2026)
+Últimos 15 dias (30/09/2026 a 15/10/2026)
 
-Atualizado em: 14/10/2026 09:02
+Atualizado em: 15/10/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20166 — Relatório do Banco Pagamento PIX - SICREDI
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20149 — EXCLUIR REGISTRO FUNCIONARIO - ERRO
 
@@ -89,15 +93,11 @@ Em Cadastro / Colaboradores / Quadro de Horário / Genérico: estou fazendo alte
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20077 — BANCO ELETRONICO BRADESCO - LIQUIDO PLR FIL 2
+✅ Correção | OS #20067 — SOLICITAÇÃO- RELATORIO PIS FOLHA
 
-⚠️ Em desenvolvimento...
+Cliente solicitou relatorio com os dados de PIS Folha do resumo da folha pagamento, são eles: Base bruta e liquida, valores excluidos e valor a recolher.
 
 ✅ Correção | OS #19981 — SOLICITAÇÃO - RELATORIO FERIAS BI PARTIDAS
 
 O cliente quer relatorio que liste valores dos eventos das ferias bi partido.
 Criei o Modelo wsel = 8
-
-🔧 Melhoria | OS #19967 — SOLICITAÇÃO - AVISOS DO SISTEMA / CONTRATO EXPERÊNCIA
-
-Em Geral / Configuração / Avisos do Sistema / Parâmetros de Configuração - cliente solicitou incluir uma nova opção na parte do "Contrato de Experiência" - hoje quando tem os
