@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (30/09/2026 a 15/10/2026)
+Últimos 15 dias (01/10/2026 a 16/10/2026)
 
-Atualizado em: 15/10/2026 09:02
+Atualizado em: 16/10/2026 09:02
 
 ---
 
@@ -10,6 +10,11 @@ Atualizado em: 15/10/2026 09:02
 🔧 Melhoria | OS #20166 — Relatório do Banco Pagamento PIX - SICREDI
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20157 — Passando para o globalFilter
+
+Cadastro -> Geral, passar todas as telas para o globalFilter e conferir se o layout é o novo. [ 1 - colado-20261013-090111.png ]
+Cadastro -> Tabelas auxiliares, passar todas as telas para o globalFilter e conferir se o layout é o novo.
 
 🔧 Melhoria | OS #20149 — EXCLUIR REGISTRO FUNCIONARIO - ERRO
 
@@ -51,14 +56,6 @@ Na base Produção (no cliente) o Holerite Completo esta saindo faltando os nome
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20088 — COD DO COLABORADOR - FERNANDOPOLIS
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20084 — BANCO ELETRONICO - PARAMETRO TRANSMISSAO
-
-Cliente precisa gerar banco eletronico de uma rescisão e na Nuvem nao consta os campos: Parametro Transmissão / Cod Compromisso / Aviso ao Favorecido /
-
 🔧 Melhoria | OS #20083 — MEDIAS FERIAS
 
 ⚠️ Em desenvolvimento...
@@ -68,6 +65,10 @@ Cliente precisa gerar banco eletronico de uma rescisão e na Nuvem nao consta os
 Incluir campos Nome do Conselho e Nº Registro dos dados de Registro Profissional do cadastro colaborador na Nuvem.
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20165 — Geração S-2299 com Férias mês anterior 
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20156 — Férias em dobro com Abono
 
