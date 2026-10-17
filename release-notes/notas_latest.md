@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (01/10/2026 a 16/10/2026)
+Últimos 15 dias (02/10/2026 a 17/10/2026)
 
-Atualizado em: 16/10/2026 09:02
+Atualizado em: 17/10/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20172 — Relatorio de Movimentos - Opção Excel
+
+... Na Nuvem não localizei a opção de Exportar em Excel o Relatorio de Movimentos, conforme tem no DESKTOP [ 3 - colado-20261015-101845.png ]
 
 🔧 Melhoria | OS #20166 — Relatório do Banco Pagamento PIX - SICREDI
 
@@ -78,6 +82,10 @@ Em Processamentos / Férias / Calcular Férias: estou fazendo férias com saída
 
 ⚠️ Em desenvolvimento...
 
+🔧 Melhoria | OS #20126 — S-1200 / S-1210 - Desmembrar o <ideDmDev> das Férias 
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #20132 — Alteração Quadro de Horário / Criação do S-2206
 
 Em Cadastro / Colaboradores / Quadro de Horário / Genérico: estou fazendo alteração do campo "Descrição da Jornada" e o sistema criou o S-2206 somente para a empresa 0001, porém na empresa 0092 o funcionário 9 também tem o quadro 26, então o sistema precisa criar o S-2206 e não criou, por favor verificar o motivo.
@@ -90,7 +98,7 @@ Em Cadastro / Colaboradores / Quadro de Horário / Genérico: estou fazendo alte
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20086 — Férias paga em Rescisão
+🔧 Melhoria | OS #20059 — S-1200 FERIAS MES ANTERIOR
 
 ⚠️ Em desenvolvimento...
 
