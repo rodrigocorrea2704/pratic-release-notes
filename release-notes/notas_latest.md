@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (02/10/2026 a 17/10/2026)
+Últimos 15 dias (04/10/2026 a 19/10/2026)
 
-Atualizado em: 17/10/2026 09:02
+Atualizado em: 19/10/2026 09:02
 
 ---
 
@@ -53,10 +53,6 @@ Na base Produção (no cliente) o Holerite Completo esta saindo faltando os nome
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20097 — CALCULO DE INSALUBRIDADE - FALTAS
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20092 — ERRO - DUPLICAÇÃO DE COLABORADOR NUVEM
 
 ⚠️ Em desenvolvimento...
 
