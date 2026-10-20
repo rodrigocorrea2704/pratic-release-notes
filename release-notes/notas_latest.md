@@ -1,11 +1,16 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (04/10/2026 a 19/10/2026)
+Últimos 15 dias (05/10/2026 a 20/10/2026)
 
-Atualizado em: 19/10/2026 09:02
+Atualizado em: 20/10/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20186 — Campo PIX CNPJ
+
+Sistema não permite colar o pix no formato cpf [ 1 - colado-20261019-145715.png ]
+Fazer uma forma rapida de duplicar a tabela de impostos do site ou do mes anterior no dashboarde de calculo,
 
 🔧 Melhoria | OS #20172 — Relatorio de Movimentos - Opção Excel
 
