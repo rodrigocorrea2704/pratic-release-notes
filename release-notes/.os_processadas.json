@@ -951,6 +951,39 @@
       "oseCod": "20186",
       "dataProcessamento": "20/10/2026 09:02",
       "incluida": true
+    },
+    {
+      "oseCod": "19648",
+      "dataProcessamento": "21/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "19994",
+      "dataProcessamento": "21/10/2026 09:02",
+      "incluida": false,
+      "motivo": "suporte simples"
+    },
+    {
+      "oseCod": "19753",
+      "dataProcessamento": "21/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20180",
+      "dataProcessamento": "21/10/2026 09:02",
+      "incluida": true
+    },
+    {
+      "oseCod": "20187",
+      "dataProcessamento": "21/10/2026 09:02",
+      "incluida": false,
+      "motivo": "suporte simples"
+    },
+    {
+      "oseCod": "20171",
+      "dataProcessamento": "21/10/2026 09:02",
+      "incluida": false,
+      "motivo": "interno"
     }
   ]
 }

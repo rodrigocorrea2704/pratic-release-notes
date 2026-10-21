@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (05/10/2026 a 20/10/2026)
+Últimos 15 dias (06/10/2026 a 21/10/2026)
 
-Atualizado em: 20/10/2026 09:02
+Atualizado em: 21/10/2026 09:02
 
 ---
 
@@ -57,19 +57,24 @@ Na base Produção (no cliente) o Holerite Completo esta saindo faltando os nome
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20097 — CALCULO DE INSALUBRIDADE - FALTAS
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20083 — MEDIAS FERIAS
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #20046 — INCLUIR NUVEM - CAMPO REGISTRO PROFISSIONAL
 
 Incluir campos Nome do Conselho e Nº Registro dos dados de Registro Profissional do cadastro colaborador na Nuvem.
 
+🔧 Melhoria | OS #19753 — INTEGRAÇÃO COM SISTEMA RH-GESTOR
+
+Integração com o sistema RH-Gestor
+
+✅ Correção | OS #19648 — SOLICITAÇÃO / GERADOR DE RELATÓRIOS / EXCEL / IVONE
+
+OBS: Agora se não for possível a liberação pra geração em excel desse relatório, o Paulo Gomes pediu para verificar a possibilidade de criar um relatório especifico com essas informações.. 
+Aumentei os campos RELSUB RELTRA da tabela GR_CABREL para 500 também 
+
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20180 — Erro - Alterar Registro Func
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20165 — Geração S-2299 com Férias mês anterior 
 
