@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (06/10/2026 a 21/10/2026)
+Últimos 15 dias (07/10/2026 a 22/10/2026)
 
-Atualizado em: 21/10/2026 09:02
+Atualizado em: 22/10/2026 09:02
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20196 — Erro para carregar Quadro de Horario Generico
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20186 — Campo PIX CNPJ
 
