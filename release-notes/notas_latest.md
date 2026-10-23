@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (07/10/2026 a 22/10/2026)
+Últimos 15 dias (08/10/2026 a 23/10/2026)
 
-Atualizado em: 22/10/2026 09:02
+Atualizado em: 23/10/2026 09:02
 
 ---
 
@@ -23,6 +23,11 @@ Fazer uma forma rapida de duplicar a tabela de impostos do site ou do mes anteri
 🔧 Melhoria | OS #20166 — Relatório do Banco Pagamento PIX - SICREDI
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20159 — Extrato Plano de Saude
+
+Relantorio Para Desmembrar os valores do convenio
+Não achei o relatório que mostra os valores rateados entre os dependentes de convenio medico na nuvem [ 3 - colado-20261013-161314.png ]
 
 🔧 Melhoria | OS #20157 — Passando para o globalFilter
 
@@ -52,18 +57,6 @@ Na base Produção (no cliente) o Holerite Completo esta saindo faltando os nome
 🔧 Melhoria | OS #20120 — Relatorio Banco - Pagto PIX
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20118 — Sexagesimal no calculo de atraso
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20104 — RELATORIO DE MOVIMENTOS - MULTIPLOS EVENTOS FILTRO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20046 — INCLUIR NUVEM - CAMPO REGISTRO PROFISSIONAL
-
-Incluir campos Nome do Conselho e Nº Registro dos dados de Registro Profissional do cadastro colaborador na Nuvem.
 
 🔧 Melhoria | OS #19753 — INTEGRAÇÃO COM SISTEMA RH-GESTOR
 

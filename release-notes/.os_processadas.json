@@ -995,6 +995,11 @@
       "dataProcessamento": "22/10/2026 09:02",
       "incluida": false,
       "motivo": "interno"
+    },
+    {
+      "oseCod": "20159",
+      "dataProcessamento": "23/10/2026 09:02",
+      "incluida": true
     }
   ]
 }
