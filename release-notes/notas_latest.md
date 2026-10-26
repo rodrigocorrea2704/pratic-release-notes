@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (09/10/2026 a 24/10/2026)
+Últimos 15 dias (11/10/2026 a 26/10/2026)
 
-Atualizado em: 24/10/2026 09:01
+Atualizado em: 26/10/2026 09:55
 
 ---
 
@@ -33,10 +33,6 @@ Não achei o relatório que mostra os valores rateados entre os dependentes de c
 
 Cadastro -> Geral, passar todas as telas para o globalFilter e conferir se o layout é o novo. [ 1 - colado-20261013-090111.png ]
 Cadastro -> Tabelas auxiliares, passar todas as telas para o globalFilter e conferir se o layout é o novo.
-
-🔧 Melhoria | OS #20149 — EXCLUIR REGISTRO FUNCIONARIO - ERRO
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20139 — Listagem Folha Completa - Parametro Quebra "Manual"
 
