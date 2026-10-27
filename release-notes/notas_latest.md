@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (11/10/2026 a 26/10/2026)
+Últimos 15 dias (12/10/2026 a 27/10/2026)
 
-Atualizado em: 26/10/2026 09:55
+Atualizado em: 27/10/2026 09:02
 
 ---
 
@@ -15,6 +15,10 @@ Atualizado em: 26/10/2026 09:55
 
 Sistema não permite colar o pix no formato cpf [ 1 - colado-20261019-145715.png ]
 Fazer uma forma rapida de duplicar a tabela de impostos do site ou do mes anterior no dashboarde de calculo,
+
+🔧 Melhoria | OS #20182 — Folha de Adiantamento / Estabelecimento em Lote
+
+Em Relatórios / Folha de Pagamento/ Adiantamento-PLR - adicionar nesse relatório a opção do filtro "Estabelecimento". [ 1 - colado-20261016-153653.png ]
 
 🔧 Melhoria | OS #20172 — Relatorio de Movimentos - Opção Excel
 
@@ -60,6 +64,10 @@ OBS: Agora se não for possível a liberação pra geração em excel desse rela
 Aumentei os campos RELSUB RELTRA da tabela GR_CABREL para 500 também 
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20212 — Duplicidade evento no XML S-2299 - Liquido Ferias mes Anterior
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20180 — Erro - Alterar Registro Func
 
