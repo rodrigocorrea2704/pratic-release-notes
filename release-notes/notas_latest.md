@@ -1,11 +1,19 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (12/10/2026 a 27/10/2026)
+Últimos 15 dias (13/10/2026 a 28/10/2026)
 
-Atualizado em: 27/10/2026 09:02
+Atualizado em: 28/10/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20226 — Erro  - Importação Consignado (Certificado)
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20198 — Melhoria do favoritos
+
+No RH, precisamos melhorar o favoritos usado pelo usuário, hoje ele precisa entrar tela por tela que quer favoritar e clicar no sinal de mais [ 1 - colado-20261021-104556.png ], vamos fazer a mesma sistematica do adm sem tirar o botão de + que já existe hoje, também precisamos que o usuário tenha condição de editar o nome e o icone que ele já tenha favoritado, seria legal ele também ter esse dialog de edição para ajustar antes de salvar, assim ele pode arrastar a tela até a barra de favoritos e abre o dialog antes de favoritar ou ele pode apertar com o botão direita em cima do menu e colocar no favoritos mas abre o dialog de editar antes de confirmar no banco também.
 
 🔧 Melhoria | OS #20196 — Erro para carregar Quadro de Horario Generico
 
@@ -65,7 +73,15 @@ Aumentei os campos RELSUB RELTRA da tabela GR_CABREL para 500 também
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
+🔧 Melhoria | OS #20220 — Alteração layout E-social S-2230
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #20212 — Duplicidade evento no XML S-2299 - Liquido Ferias mes Anterior
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20181 — Solicitação / Relatório Alteração Salarial
 
 ⚠️ Em desenvolvimento...
 
