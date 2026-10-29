@@ -1030,6 +1030,32 @@
       "oseCod": "20181",
       "dataProcessamento": "28/10/2026 09:01",
       "incluida": true
+    },
+    {
+      "oseCod": "20177",
+      "dataProcessamento": "29/10/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20205",
+      "dataProcessamento": "29/10/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20217",
+      "dataProcessamento": "29/10/2026 09:01",
+      "incluida": false,
+      "motivo": "interno"
+    },
+    {
+      "oseCod": "20164",
+      "dataProcessamento": "29/10/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20210",
+      "dataProcessamento": "29/10/2026 09:01",
+      "incluida": true
     }
   ]
 }

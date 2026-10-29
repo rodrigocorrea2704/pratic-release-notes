@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (13/10/2026 a 28/10/2026)
+Últimos 15 dias (14/10/2026 a 29/10/2026)
 
-Atualizado em: 28/10/2026 09:01
+Atualizado em: 29/10/2026 09:01
 
 ---
 
@@ -28,9 +28,18 @@ Fazer uma forma rapida de duplicar a tabela de impostos do site ou do mes anteri
 
 Em Relatórios / Folha de Pagamento/ Adiantamento-PLR - adicionar nesse relatório a opção do filtro "Estabelecimento". [ 1 - colado-20261016-153653.png ]
 
+🔧 Melhoria | OS #20177 — Envido de Holerite por email nuvem
+
+Preparar na nuvem a rotina envido de holerite por email
+acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161523.png ]
+
 🔧 Melhoria | OS #20172 — Relatorio de Movimentos - Opção Excel
 
 ... Na Nuvem não localizei a opção de Exportar em Excel o Relatorio de Movimentos, conforme tem no DESKTOP [ 3 - colado-20261015-101845.png ]
+
+🔧 Melhoria | OS #20164 — Mapa Medias Ferias e Calculo Horas Extras 50% e 100%
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20166 — Relatório do Banco Pagamento PIX - SICREDI
 
@@ -50,18 +59,6 @@ Cadastro -> Tabelas auxiliares, passar todas as telas para o globalFilter e conf
 
 Na listagem de Folha Completa da Nuvem, tela [ 1 - colado-20261008-082121.png ] quando informado tipo de quebra "Manualmente"
 
-🔧 Melhoria | OS #20145 — Retorno Maternidade Socia - Nuvem
-
-Precisa confirmar retorno de afastamento maternidade de SOCIA [ 1 - colado-20261008-120222.png ]
-
-🔧 Melhoria | OS #20147 — ADICIONAL NOTURNO 60% - SANTA JULIETA
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20116 — HOLERITE COMPLETO - NOME DOS CAMPOS
-
-Na base Produção (no cliente) o Holerite Completo esta saindo faltando os nomes dos campos, exemplo: Base Inss, FGTS, IR;
-
 🔧 Melhoria | OS #19753 — INTEGRAÇÃO COM SISTEMA RH-GESTOR
 
 Integração com o sistema RH-Gestor
@@ -77,9 +74,19 @@ Aumentei os campos RELSUB RELTRA da tabela GR_CABREL para 500 também
 
 ⚠️ Em desenvolvimento...
 
+🔧 Melhoria | OS #20210 — S-2299 com multiplo vinculo
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #20212 — Duplicidade evento no XML S-2299 - Liquido Ferias mes Anterior
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20205 — Relação de Movimento - Contrato de Trabalho
+
+O Relatõrio de movimentos nós viramos ele pra paisagem e no desktop continua me retrato ai agora ta estourando a pagina [ 1 - colado-20261022-120030.png ]
+Colocar uma forma de Excluir um contrato de trabalho [ 3 - colado-20261023-164137.png ]
+Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-164341.png ]
 
 🔧 Melhoria | OS #20181 — Solicitação / Relatório Alteração Salarial
 
@@ -93,17 +100,9 @@ Aumentei os campos RELSUB RELTRA da tabela GR_CABREL para 500 também
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20156 — Férias em dobro com Abono
-
-Em Processamentos / Férias / Calcular Férias: estou fazendo férias com saída dia 01/10/2026 com Abono DT, esse funcionário tem FÉRIAS EM DOBRO e o valor do evento 427, precisa ser R$ 2.000,00 ref. apenas a 20 dias e o sistema está apurando 30 dias. [ 1 - colado-20261009-171602.png ]
-
 🔧 Melhoria | OS #20126 — S-1200 / S-1210 - Desmembrar o <ideDmDev> das Férias 
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20132 — Alteração Quadro de Horário / Criação do S-2206
-
-Em Cadastro / Colaboradores / Quadro de Horário / Genérico: estou fazendo alteração do campo "Descrição da Jornada" e o sistema criou o S-2206 somente para a empresa 0001, porém na empresa 0092 o funcionário 9 também tem o quadro 26, então o sistema precisa criar o S-2206 e não criou, por favor verificar o motivo.
 
 🔧 Melhoria | OS #20059 — S-1200 FERIAS MES ANTERIOR
 
