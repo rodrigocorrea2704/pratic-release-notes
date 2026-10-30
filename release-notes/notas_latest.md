@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (14/10/2026 a 29/10/2026)
+Últimos 15 dias (15/10/2026 a 30/10/2026)
 
-Atualizado em: 29/10/2026 09:01
+Atualizado em: 30/10/2026 09:01
 
 ---
 
@@ -41,10 +41,6 @@ acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20166 — Relatório do Banco Pagamento PIX - SICREDI
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #20159 — Extrato Plano de Saude
 
 Relantorio Para Desmembrar os valores do convenio
@@ -54,10 +50,6 @@ Não achei o relatório que mostra os valores rateados entre os dependentes de c
 
 Cadastro -> Geral, passar todas as telas para o globalFilter e conferir se o layout é o novo. [ 1 - colado-20261013-090111.png ]
 Cadastro -> Tabelas auxiliares, passar todas as telas para o globalFilter e conferir se o layout é o novo.
-
-🔧 Melhoria | OS #20139 — Listagem Folha Completa - Parametro Quebra "Manual"
-
-Na listagem de Folha Completa da Nuvem, tela [ 1 - colado-20261008-082121.png ] quando informado tipo de quebra "Manualmente"
 
 🔧 Melhoria | OS #19753 — INTEGRAÇÃO COM SISTEMA RH-GESTOR
 
@@ -107,7 +99,3 @@ Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-1643
 🔧 Melhoria | OS #20059 — S-1200 FERIAS MES ANTERIOR
 
 ⚠️ Em desenvolvimento...
-
-✅ Correção | OS #20067 — SOLICITAÇÃO- RELATORIO PIS FOLHA
-
-Cliente solicitou relatorio com os dados de PIS Folha do resumo da folha pagamento, são eles: Base bruta e liquida, valores excluidos e valor a recolher.
