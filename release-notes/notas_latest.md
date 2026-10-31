@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (15/10/2026 a 30/10/2026)
+Últimos 15 dias (16/10/2026 a 31/10/2026)
 
-Atualizado em: 30/10/2026 09:01
+Atualizado em: 31/10/2026 09:01
 
 ---
 
@@ -46,11 +46,6 @@ acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161
 Relantorio Para Desmembrar os valores do convenio
 Não achei o relatório que mostra os valores rateados entre os dependentes de convenio medico na nuvem [ 3 - colado-20261013-161314.png ]
 
-🔧 Melhoria | OS #20157 — Passando para o globalFilter
-
-Cadastro -> Geral, passar todas as telas para o globalFilter e conferir se o layout é o novo. [ 1 - colado-20261013-090111.png ]
-Cadastro -> Tabelas auxiliares, passar todas as telas para o globalFilter e conferir se o layout é o novo.
-
 🔧 Melhoria | OS #19753 — INTEGRAÇÃO COM SISTEMA RH-GESTOR
 
 Integração com o sistema RH-Gestor
@@ -85,10 +80,6 @@ Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-1643
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20180 — Erro - Alterar Registro Func
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20165 — Geração S-2299 com Férias mês anterior 
 
 ⚠️ Em desenvolvimento...
 
