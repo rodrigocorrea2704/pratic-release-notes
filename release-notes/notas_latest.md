@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (16/10/2026 a 31/10/2026)
+Últimos 15 dias (18/10/2026 a 02/11/2026)
 
-Atualizado em: 31/10/2026 09:01
+Atualizado em: 02/11/2026 09:01
 
 ---
 
@@ -32,10 +32,6 @@ Em Relatórios / Folha de Pagamento/ Adiantamento-PLR - adicionar nesse relatór
 
 Preparar na nuvem a rotina envido de holerite por email
 acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161523.png ]
-
-🔧 Melhoria | OS #20172 — Relatorio de Movimentos - Opção Excel
-
-... Na Nuvem não localizei a opção de Exportar em Excel o Relatorio de Movimentos, conforme tem no DESKTOP [ 3 - colado-20261015-101845.png ]
 
 🔧 Melhoria | OS #20164 — Mapa Medias Ferias e Calculo Horas Extras 50% e 100%
 
@@ -80,13 +76,5 @@ Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-1643
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20180 — Erro - Alterar Registro Func
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20126 — S-1200 / S-1210 - Desmembrar o <ideDmDev> das Férias 
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20059 — S-1200 FERIAS MES ANTERIOR
 
 ⚠️ Em desenvolvimento...
