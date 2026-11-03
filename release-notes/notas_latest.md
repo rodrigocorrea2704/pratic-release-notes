@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (18/10/2026 a 02/11/2026)
+Últimos 15 dias (19/10/2026 a 03/11/2026)
 
-Atualizado em: 02/11/2026 09:01
+Atualizado em: 03/11/2026 09:01
 
 ---
 
@@ -10,6 +10,10 @@ Atualizado em: 02/11/2026 09:01
 🔧 Melhoria | OS #20226 — Erro  - Importação Consignado (Certificado)
 
 ⚠️ Em desenvolvimento...
+
+✅ Correção | OS #20214 — Memoria de Calculo IR Adiantamento/PLR
+
+preparar sistema para mostrar como foi feito o calculo do ir em adiantamento e PLR
 
 🔧 Melhoria | OS #20198 — Melhoria do favoritos
 
