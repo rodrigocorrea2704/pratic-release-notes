@@ -1067,6 +1067,21 @@
       "oseCod": "20214",
       "dataProcessamento": "03/11/2026 09:01",
       "incluida": true
+    },
+    {
+      "oseCod": "20256",
+      "dataProcessamento": "04/11/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20253",
+      "dataProcessamento": "04/11/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20251",
+      "dataProcessamento": "04/11/2026 09:01",
+      "incluida": true
     }
   ]
 }

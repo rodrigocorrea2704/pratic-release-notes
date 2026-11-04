@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (19/10/2026 a 03/11/2026)
+Últimos 15 dias (20/10/2026 a 04/11/2026)
 
-Atualizado em: 03/11/2026 09:01
+Atualizado em: 04/11/2026 09:01
 
 ---
 
@@ -56,6 +56,18 @@ OBS: Agora se não for possível a liberação pra geração em excel desse rela
 Aumentei os campos RELSUB RELTRA da tabela GR_CABREL para 500 também 
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+✅ Correção | OS #20256 — Folha com Férias Coletivas
+
+Estou calculando a folha 10/2026, e esse funcionário tem férias coletivas de 10 dias, [ 2 - colado-20261103-101611.png ] porém por direito ele tem apenas 7,50 dias de férias, e como o cliente marcou a opção para alterar o período aquisitivo para funcionários com menos de 1 ano, o restante o sistema jogou como licença remunerada 2,50 dias = totalizando os 10 dias de férias. O erro está no cálculo da folha, o evento 1 - salário base, precisa ter referência de 20 dias, e o sistema se perdeu e jogou 20,50 dias. [ 1 - colado-20261103-100946.png ]
+
+🔧 Melhoria | OS #20253 — Ajuste S-1210 (rescisão c/multiplo vinculo)
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20251 — S-2230 Afastamento
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20220 — Alteração layout E-social S-2230
 
