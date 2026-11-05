@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (20/10/2026 a 04/11/2026)
+Últimos 15 dias (21/10/2026 a 05/11/2026)
 
-Atualizado em: 04/11/2026 09:01
+Atualizado em: 05/11/2026 09:01
 
 ---
 
@@ -23,10 +23,9 @@ No RH, precisamos melhorar o favoritos usado pelo usuário, hoje ele precisa ent
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20186 — Campo PIX CNPJ
+🔧 Melhoria | OS #20189 — Sugestão - Botão Enviar E-social (Tela Consulta Calculos)
 
-Sistema não permite colar o pix no formato cpf [ 1 - colado-20261019-145715.png ]
-Fazer uma forma rapida de duplicar a tabela de impostos do site ou do mes anterior no dashboarde de calculo,
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20182 — Folha de Adiantamento / Estabelecimento em Lote
 
@@ -46,16 +45,11 @@ acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161
 Relantorio Para Desmembrar os valores do convenio
 Não achei o relatório que mostra os valores rateados entre os dependentes de convenio medico na nuvem [ 3 - colado-20261013-161314.png ]
 
-🔧 Melhoria | OS #19753 — INTEGRAÇÃO COM SISTEMA RH-GESTOR
-
-Integração com o sistema RH-Gestor
-
-✅ Correção | OS #19648 — SOLICITAÇÃO / GERADOR DE RELATÓRIOS / EXCEL / IVONE
-
-OBS: Agora se não for possível a liberação pra geração em excel desse relatório, o Paulo Gomes pediu para verificar a possibilidade de criar um relatório especifico com essas informações.. 
-Aumentei os campos RELSUB RELTRA da tabela GR_CABREL para 500 também 
-
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20258 — Consignado nas Ferias Bi partida
+
+⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #20256 — Folha com Férias Coletivas
 
@@ -88,9 +82,5 @@ Colocar uma forma de Excluir um contrato de trabalho [ 3 - colado-20261023-16413
 Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-164341.png ]
 
 🔧 Melhoria | OS #20181 — Solicitação / Relatório Alteração Salarial
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20180 — Erro - Alterar Registro Func
 
 ⚠️ Em desenvolvimento...
