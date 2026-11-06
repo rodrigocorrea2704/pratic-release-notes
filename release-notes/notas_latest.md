@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (21/10/2026 a 05/11/2026)
+Últimos 15 dias (22/10/2026 a 06/11/2026)
 
-Atualizado em: 05/11/2026 09:01
+Atualizado em: 06/11/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+✅ Correção | OS #20269 — Erro consulta quadro especifico
+
+...[ 2 - colado-20261105-112234.png ] erro para consultar quadro de horario especifico.
 
 🔧 Melhoria | OS #20226 — Erro  - Importação Consignado (Certificado)
 
@@ -18,10 +22,6 @@ preparar sistema para mostrar como foi feito o calculo do ir em adiantamento e P
 🔧 Melhoria | OS #20198 — Melhoria do favoritos
 
 No RH, precisamos melhorar o favoritos usado pelo usuário, hoje ele precisa entrar tela por tela que quer favoritar e clicar no sinal de mais [ 1 - colado-20261021-104556.png ], vamos fazer a mesma sistematica do adm sem tirar o botão de + que já existe hoje, também precisamos que o usuário tenha condição de editar o nome e o icone que ele já tenha favoritado, seria legal ele também ter esse dialog de edição para ajustar antes de salvar, assim ele pode arrastar a tela até a barra de favoritos e abre o dialog antes de favoritar ou ele pode apertar com o botão direita em cima do menu e colocar no favoritos mas abre o dialog de editar antes de confirmar no banco também.
-
-🔧 Melhoria | OS #20196 — Erro para carregar Quadro de Horario Generico
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20189 — Sugestão - Botão Enviar E-social (Tela Consulta Calculos)
 
@@ -84,3 +84,15 @@ Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-1643
 🔧 Melhoria | OS #20181 — Solicitação / Relatório Alteração Salarial
 
 ⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #19836 — CNPJ ALFANUMERICO
+
+Cadastrar empresa com cnpj alfanumérico UK.PVM.E1E/8HI9-96 - consegui cadastrar no desktop mas na nuvem nem deixa selecionar
+Em Cadastro / Empresa / Filial - estou tentando cadastrar o CNPJ = 00.000.000/E08G-12 e não consigo digitar letras, sistema não deixa.
+Em Cadastro / Empresa / Empresa - quando colocamos o código da empresa os dados que carrega no frente do nome vem como CPF e uma númeração incompleta.
+Em Relatórios / Colaboradores / Folha de Pagamento: na listagem o CNPJ está vindo incompleto, precisa mostrar UK.PVM.E1E/8HI9-96
+Em Relatórios / Colaboradores / Holerite / Holerite Completo: na listagem o CNPJ está vindo incompleto, precisa mostrar UK.PVM.E1E/8HI9-96
+
+🔧 Melhoria | OS #19749 — SOLICITAÇÃO - ENTRE FILIAIS CARTAO PONTO
+
+Solicitou incluir filtro de inicio e fim para filial na tela de cartão de ponto (anexo 01).
