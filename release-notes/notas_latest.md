@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (23/10/2026 a 07/11/2026)
+Últimos 15 dias (25/10/2026 a 09/11/2026)
 
-Atualizado em: 07/11/2026 09:01
+Atualizado em: 09/11/2026 09:01
 
 ---
 
@@ -43,11 +43,6 @@ acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161
 🔧 Melhoria | OS #20164 — Mapa Medias Ferias e Calculo Horas Extras 50% e 100%
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20159 — Extrato Plano de Saude
-
-Relantorio Para Desmembrar os valores do convenio
-Não achei o relatório que mostra os valores rateados entre os dependentes de convenio medico na nuvem [ 3 - colado-20261013-161314.png ]
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
