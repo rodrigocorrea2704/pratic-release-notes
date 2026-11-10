@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (25/10/2026 a 09/11/2026)
+Últimos 15 dias (26/10/2026 a 10/11/2026)
 
-Atualizado em: 09/11/2026 09:01
+Atualizado em: 10/11/2026 09:01
 
 ---
 
@@ -46,6 +46,10 @@ acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
+🔧 Melhoria | OS #20286 — S-1210 gerando tag folha em duplicidade
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #20270 — S-1210 gerado vazio
 
 ⚠️ Em desenvolvimento...
@@ -87,6 +91,10 @@ Estou calculando a folha 10/2026, e esse funcionário tem férias coletivas de 1
 O Relatõrio de movimentos nós viramos ele pra paisagem e no desktop continua me retrato ai agora ta estourando a pagina [ 1 - colado-20261022-120030.png ]
 Colocar uma forma de Excluir um contrato de trabalho [ 3 - colado-20261023-164137.png ]
 Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-164341.png ]
+
+🔧 Melhoria | OS #20192 — Alteração - escala 5x2
+
+Com alteração escala 6x1 para 5x2 precisamos habilitar na tela de alteraçao em lote de salarios, a opção de alterar "somente" a carga horaria semanal,
 
 🔧 Melhoria | OS #20181 — Solicitação / Relatório Alteração Salarial
 
