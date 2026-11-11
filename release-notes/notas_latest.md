@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (26/10/2026 a 10/11/2026)
+Últimos 15 dias (27/10/2026 a 11/11/2026)
 
-Atualizado em: 10/11/2026 09:01
+Atualizado em: 11/11/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20288 — Emissão de CONTRATO DO GERADOR
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20272 — Dados da Ficha divergentes
 
@@ -31,10 +35,6 @@ No RH, precisamos melhorar o favoritos usado pelo usuário, hoje ele precisa ent
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20182 — Folha de Adiantamento / Estabelecimento em Lote
-
-Em Relatórios / Folha de Pagamento/ Adiantamento-PLR - adicionar nesse relatório a opção do filtro "Estabelecimento". [ 1 - colado-20261016-153653.png ]
-
 🔧 Melhoria | OS #20177 — Envido de Holerite por email nuvem
 
 Preparar na nuvem a rotina envido de holerite por email
@@ -47,6 +47,10 @@ acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
 🔧 Melhoria | OS #20286 — S-1210 gerando tag folha em duplicidade
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20277 — S-1200 TRANSFERIDO COM FERIAS EMP DESTINO
 
 ⚠️ Em desenvolvimento...
 
@@ -79,10 +83,6 @@ Estou calculando a folha 10/2026, e esse funcionário tem férias coletivas de 1
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20210 — S-2299 com multiplo vinculo
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20212 — Duplicidade evento no XML S-2299 - Liquido Ferias mes Anterior
 
 ⚠️ Em desenvolvimento...
 
