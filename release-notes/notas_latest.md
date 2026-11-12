@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (27/10/2026 a 11/11/2026)
+Últimos 15 dias (28/10/2026 a 12/11/2026)
 
-Atualizado em: 11/11/2026 09:01
+Atualizado em: 12/11/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+✅ Correção | OS #20293 — Geração do S-1200
+
+O Evento ta marcado como Multiplos = N porem eu consigo colocar multiplos pelo sistema iteord =1 iteseq = 84 [ 3 - colado-20261111-081216.png ]
 
 🔧 Melhoria | OS #20288 — Emissão de CONTRATO DO GERADOR
 
@@ -19,17 +23,9 @@ Atualizado em: 11/11/2026 09:01
 
 ...[ 2 - colado-20261105-112234.png ] erro para consultar quadro de horario especifico.
 
-🔧 Melhoria | OS #20226 — Erro  - Importação Consignado (Certificado)
-
-⚠️ Em desenvolvimento...
-
 ✅ Correção | OS #20214 — Memoria de Calculo IR Adiantamento/PLR
 
 preparar sistema para mostrar como foi feito o calculo do ir em adiantamento e PLR
-
-🔧 Melhoria | OS #20198 — Melhoria do favoritos
-
-No RH, precisamos melhorar o favoritos usado pelo usuário, hoje ele precisa entrar tela por tela que quer favoritar e clicar no sinal de mais [ 1 - colado-20261021-104556.png ], vamos fazer a mesma sistematica do adm sem tirar o botão de + que já existe hoje, também precisamos que o usuário tenha condição de editar o nome e o icone que ele já tenha favoritado, seria legal ele também ter esse dialog de edição para ajustar antes de salvar, assim ele pode arrastar a tela até a barra de favoritos e abre o dialog antes de favoritar ou ele pode apertar com o botão direita em cima do menu e colocar no favoritos mas abre o dialog de editar antes de confirmar no banco também.
 
 🔧 Melhoria | OS #20189 — Sugestão - Botão Enviar E-social (Tela Consulta Calculos)
 
@@ -44,11 +40,24 @@ acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161
 
 ⚠️ Em desenvolvimento...
 
+🔧 Melhoria | OS #20151 — Solicitação Referencias - Holerite Completo
+
+⚠️ Em desenvolvimento...
+
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20302 — Erro  - Exclusão Transferencia
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20286 — S-1210 gerando tag folha em duplicidade
 
 ⚠️ Em desenvolvimento...
+
+✅ Correção | OS #20281 — S-2230 com afastamento anterior
+
+Ferias (1010/1/10) deu certo tipo 15;
+Afastamento inicial e mesmo motivo (O3 seguido de O2) deu certo (1010/1/5).
 
 🔧 Melhoria | OS #20277 — S-1200 TRANSFERIDO COM FERIAS EMP DESTINO
 
@@ -78,10 +87,6 @@ Estou calculando a folha 10/2026, e esse funcionário tem férias coletivas de 1
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20220 — Alteração layout E-social S-2230
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #20210 — S-2299 com multiplo vinculo
 
 ⚠️ Em desenvolvimento...
@@ -95,10 +100,6 @@ Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-1643
 🔧 Melhoria | OS #20192 — Alteração - escala 5x2
 
 Com alteração escala 6x1 para 5x2 precisamos habilitar na tela de alteraçao em lote de salarios, a opção de alterar "somente" a carga horaria semanal,
-
-🔧 Melhoria | OS #20181 — Solicitação / Relatório Alteração Salarial
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #19836 — CNPJ ALFANUMERICO
 

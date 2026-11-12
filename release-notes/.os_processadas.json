@@ -1172,6 +1172,26 @@
       "dataProcessamento": "11/11/2026 09:01",
       "incluida": false,
       "motivo": "interno"
+    },
+    {
+      "oseCod": "20302",
+      "dataProcessamento": "12/11/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20293",
+      "dataProcessamento": "12/11/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20281",
+      "dataProcessamento": "12/11/2026 09:01",
+      "incluida": true
+    },
+    {
+      "oseCod": "20151",
+      "dataProcessamento": "12/11/2026 09:01",
+      "incluida": true
     }
   ]
 }
