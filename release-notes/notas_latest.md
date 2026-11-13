@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (28/10/2026 a 12/11/2026)
+Últimos 15 dias (29/10/2026 a 13/11/2026)
 
-Atualizado em: 12/11/2026 09:01
+Atualizado em: 13/11/2026 09:01
 
 ---
 
@@ -36,21 +36,25 @@ preparar sistema para mostrar como foi feito o calculo do ir em adiantamento e P
 Preparar na nuvem a rotina envido de holerite por email
 acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161523.png ]
 
-🔧 Melhoria | OS #20164 — Mapa Medias Ferias e Calculo Horas Extras 50% e 100%
-
-⚠️ Em desenvolvimento...
-
 🔧 Melhoria | OS #20151 — Solicitação Referencias - Holerite Completo
 
 ⚠️ Em desenvolvimento...
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
 
+🔧 Melhoria | OS #20299 — Geração S-2200 e S-2205
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #20302 — Erro  - Exclusão Transferencia
 
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20286 — S-1210 gerando tag folha em duplicidade
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20282 — Rescisão com Férias do Aviso Indenizado
 
 ⚠️ Em desenvolvimento...
 
@@ -84,10 +88,6 @@ Estou calculando a folha 10/2026, e esse funcionário tem férias coletivas de 1
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20251 — S-2230 Afastamento
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20210 — S-2299 com multiplo vinculo
 
 ⚠️ Em desenvolvimento...
 
