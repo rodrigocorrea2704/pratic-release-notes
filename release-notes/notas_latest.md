@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (29/10/2026 a 13/11/2026)
+Últimos 15 dias (30/10/2026 a 14/11/2026)
 
-Atualizado em: 13/11/2026 09:01
+Atualizado em: 14/11/2026 09:01
 
 ---
 
@@ -31,16 +31,19 @@ preparar sistema para mostrar como foi feito o calculo do ir em adiantamento e P
 
 ⚠️ Em desenvolvimento...
 
-🔧 Melhoria | OS #20177 — Envido de Holerite por email nuvem
-
-Preparar na nuvem a rotina envido de holerite por email
-acertar os menus de acesso rapido pois estão travando [ 3 - colado-20261015-161523.png ]
-
 🔧 Melhoria | OS #20151 — Solicitação Referencias - Holerite Completo
 
 ⚠️ Em desenvolvimento...
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20298 — CALCULO 13º - DIARISTA
+
+⚠️ Em desenvolvimento...
+
+🔧 Melhoria | OS #20301 — Importar Acumulado - Jose Roberto Dias
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20299 — Geração S-2200 e S-2205
 
@@ -90,12 +93,6 @@ Estou calculando a folha 10/2026, e esse funcionário tem férias coletivas de 1
 🔧 Melhoria | OS #20251 — S-2230 Afastamento
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20205 — Relação de Movimento - Contrato de Trabalho
-
-O Relatõrio de movimentos nós viramos ele pra paisagem e no desktop continua me retrato ai agora ta estourando a pagina [ 1 - colado-20261022-120030.png ]
-Colocar uma forma de Excluir um contrato de trabalho [ 3 - colado-20261023-164137.png ]
-Toda ultima folha de contrato sai uma folha em branco [ 4 - colado-20261023-164341.png ]
 
 🔧 Melhoria | OS #20192 — Alteração - escala 5x2
 
