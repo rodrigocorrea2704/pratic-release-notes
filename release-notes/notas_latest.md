@@ -1,11 +1,18 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (01/11/2026 a 16/11/2026)
+Últimos 15 dias (02/11/2026 a 17/11/2026)
 
-Atualizado em: 16/11/2026 09:01
+Atualizado em: 17/11/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+✅ Correção | OS #20307 — Cálculo folha 13º Salário em Fila de Estabelecimento
+
+Processamenos / Cálculos / 13º Salário / Calcular Colaboradores - estou usando a rotina CALCULAR FILA para calcular a 1ª parcela do 13º
+Processamenos / Cálculos / 13º Salário / Calcular Colaboradores - implementar na rotina CALCULAR FILA a opção para calcular a 2ª parcela do 13º salário. (como é feito o cálculo no desktop - [ 3 - colado-20261112-164204.png ])
+Ref. ao ITEN 01- Processamenos / Cálculos / 13º Salário / Calcular Colaboradores - estou usando a rotina calcular fila, e após o cálculo da 1ª parcela do 13º salário,[ 1 - colado-20261112-162356.png ] a lisgagem da folha que está sendo enviada no e-mail, precisamos arrumar os dizerez que aparece PARCELA COMPLEMENTO, [ 4 - colado-20261116-141124.png ] para 1ª parcela (conforme aparece quando é feito a listagem pela rotina da listagem da folha da 1ª parcela ) [ 5 - colado-20261116-141350.png ]
+Ref. ao ITEN 02- Processamenos / Cálculos / 13º Salário / Calcular Colaboradores - estou usando a rotina calcular fila, e após o cálculo da 2ª parcela , [ 7 - colado-20261116-141731.png ] o PDF da listagem da folha que está sendo enviada no e-mail está em branco, [ 6 - colado-20261116-141634.png ] OBS: Os Holerites foram enviados corretos, o erro é apenas na folha de pagamento.
 
 ✅ Correção | OS #20293 — Geração do S-1200
 
