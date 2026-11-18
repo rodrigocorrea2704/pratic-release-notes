@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (02/11/2026 a 17/11/2026)
+Últimos 15 dias (03/11/2026 a 18/11/2026)
 
-Atualizado em: 17/11/2026 09:01
+Atualizado em: 18/11/2026 09:01
 
 ---
 
@@ -30,10 +30,6 @@ O Evento ta marcado como Multiplos = N porem eu consigo colocar multiplos pelo s
 
 ...[ 2 - colado-20261105-112234.png ] erro para consultar quadro de horario especifico.
 
-✅ Correção | OS #20214 — Memoria de Calculo IR Adiantamento/PLR
-
-preparar sistema para mostrar como foi feito o calculo do ir em adiantamento e PLR
-
 🔧 Melhoria | OS #20189 — Sugestão - Botão Enviar E-social (Tela Consulta Calculos)
 
 ⚠️ Em desenvolvimento...
@@ -43,6 +39,10 @@ preparar sistema para mostrar como foi feito o calculo do ir em adiantamento e P
 ⚠️ Em desenvolvimento...
 
 🗂️ FOLHA DE PAGAMENTO - BANCO DE DADOS
+
+🔧 Melhoria | OS #20319 — Cálculo/Eliminar Folha  Mensal
+
+⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20298 — CALCULO 13º - DIARISTA
 
