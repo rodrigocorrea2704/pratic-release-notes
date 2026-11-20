@@ -1,11 +1,15 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (04/11/2026 a 19/11/2026)
+Últimos 15 dias (05/11/2026 a 20/11/2026)
 
-Atualizado em: 19/11/2026 09:01
+Atualizado em: 20/11/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
+
+🔧 Melhoria | OS #20335 — quadro especifico não aparece
+
+⚠️ Em desenvolvimento...
 
 ✅ Correção | OS #20307 — Cálculo folha 13º Salário em Fila de Estabelecimento
 
@@ -29,10 +33,6 @@ O Evento ta marcado como Multiplos = N porem eu consigo colocar multiplos pelo s
 ✅ Correção | OS #20269 — Erro consulta quadro especifico
 
 ...[ 2 - colado-20261105-112234.png ] erro para consultar quadro de horario especifico.
-
-🔧 Melhoria | OS #20189 — Sugestão - Botão Enviar E-social (Tela Consulta Calculos)
-
-⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20151 — Solicitação Referencias - Holerite Completo
 
@@ -80,14 +80,6 @@ Afastamento inicial e mesmo motivo (O3 seguido de O2) deu certo (1010/1/5).
 🔧 Melhoria | OS #20270 — S-1210 gerado vazio
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20258 — Consignado nas Ferias Bi partida
-
-⚠️ Em desenvolvimento...
-
-✅ Correção | OS #20256 — Folha com Férias Coletivas
-
-Estou calculando a folha 10/2026, e esse funcionário tem férias coletivas de 10 dias, [ 2 - colado-20261103-101611.png ] porém por direito ele tem apenas 7,50 dias de férias, e como o cliente marcou a opção para alterar o período aquisitivo para funcionários com menos de 1 ano, o restante o sistema jogou como licença remunerada 2,50 dias = totalizando os 10 dias de férias. O erro está no cálculo da folha, o evento 1 - salário base, precisa ter referência de 20 dias, e o sistema se perdeu e jogou 20,50 dias. [ 1 - colado-20261103-100946.png ]
 
 🔧 Melhoria | OS #20250 — Calculo diarista - rotina por dia
 
