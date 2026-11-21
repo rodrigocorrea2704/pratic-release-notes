@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (05/11/2026 a 20/11/2026)
+Últimos 15 dias (06/11/2026 a 21/11/2026)
 
-Atualizado em: 20/11/2026 09:01
+Atualizado em: 21/11/2026 09:01
 
 ---
 
@@ -29,10 +29,6 @@ O Evento ta marcado como Multiplos = N porem eu consigo colocar multiplos pelo s
 🔧 Melhoria | OS #20272 — Dados da Ficha divergentes
 
 ⚠️ Em desenvolvimento...
-
-✅ Correção | OS #20269 — Erro consulta quadro especifico
-
-...[ 2 - colado-20261105-112234.png ] erro para consultar quadro de horario especifico.
 
 🔧 Melhoria | OS #20151 — Solicitação Referencias - Holerite Completo
 
@@ -88,15 +84,3 @@ Afastamento inicial e mesmo motivo (O3 seguido de O2) deu certo (1010/1/5).
 🔧 Melhoria | OS #20192 — Alteração - escala 5x2
 
 Com alteração escala 6x1 para 5x2 precisamos habilitar na tela de alteraçao em lote de salarios, a opção de alterar "somente" a carga horaria semanal,
-
-🔧 Melhoria | OS #19836 — CNPJ ALFANUMERICO
-
-Cadastrar empresa com cnpj alfanumérico UK.PVM.E1E/8HI9-96 - consegui cadastrar no desktop mas na nuvem nem deixa selecionar
-Em Cadastro / Empresa / Filial - estou tentando cadastrar o CNPJ = 00.000.000/E08G-12 e não consigo digitar letras, sistema não deixa.
-Em Cadastro / Empresa / Empresa - quando colocamos o código da empresa os dados que carrega no frente do nome vem como CPF e uma númeração incompleta.
-Em Relatórios / Colaboradores / Folha de Pagamento: na listagem o CNPJ está vindo incompleto, precisa mostrar UK.PVM.E1E/8HI9-96
-Em Relatórios / Colaboradores / Holerite / Holerite Completo: na listagem o CNPJ está vindo incompleto, precisa mostrar UK.PVM.E1E/8HI9-96
-
-🔧 Melhoria | OS #19749 — SOLICITAÇÃO - ENTRE FILIAIS CARTAO PONTO
-
-Solicitou incluir filtro de inicio e fim para filial na tela de cartão de ponto (anexo 01).
