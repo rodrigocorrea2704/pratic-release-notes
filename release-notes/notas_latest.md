@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (06/11/2026 a 21/11/2026)
+Últimos 15 dias (08/11/2026 a 23/11/2026)
 
-Atualizado em: 21/11/2026 09:01
+Atualizado em: 23/11/2026 09:01
 
 ---
 
@@ -23,10 +23,6 @@ Ref. ao ITEN 02- Processamenos / Cálculos / 13º Salário / Calcular Colaborado
 O Evento ta marcado como Multiplos = N porem eu consigo colocar multiplos pelo sistema iteord =1 iteseq = 84 [ 3 - colado-20261111-081216.png ]
 
 🔧 Melhoria | OS #20288 — Emissão de CONTRATO DO GERADOR
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20272 — Dados da Ficha divergentes
 
 ⚠️ Em desenvolvimento...
 
@@ -70,14 +66,6 @@ Ferias (1010/1/10) deu certo tipo 15;
 Afastamento inicial e mesmo motivo (O3 seguido de O2) deu certo (1010/1/5).
 
 🔧 Melhoria | OS #20277 — S-1200 TRANSFERIDO COM FERIAS EMP DESTINO
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20270 — S-1210 gerado vazio
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20250 — Calculo diarista - rotina por dia
 
 ⚠️ Em desenvolvimento...
 
