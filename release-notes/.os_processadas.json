@@ -1227,6 +1227,12 @@
       "oseCod": "20335",
       "dataProcessamento": "20/11/2026 09:01",
       "incluida": true
+    },
+    {
+      "oseCod": "20308",
+      "dataProcessamento": "24/11/2026 09:01",
+      "incluida": false,
+      "motivo": "suporte simples"
     }
   ]
 }
