@@ -1,7 +1,7 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (09/11/2026 a 24/11/2026)
+Últimos 15 dias (10/11/2026 a 25/11/2026)
 
-Atualizado em: 24/11/2026 09:01
+Atualizado em: 25/11/2026 09:01
 
 ---
 
@@ -68,7 +68,3 @@ Afastamento inicial e mesmo motivo (O3 seguido de O2) deu certo (1010/1/5).
 🔧 Melhoria | OS #20277 — S-1200 TRANSFERIDO COM FERIAS EMP DESTINO
 
 ⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20192 — Alteração - escala 5x2
-
-Com alteração escala 6x1 para 5x2 precisamos habilitar na tela de alteraçao em lote de salarios, a opção de alterar "somente" a carga horaria semanal,
