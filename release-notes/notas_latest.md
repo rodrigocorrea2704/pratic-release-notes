@@ -1,15 +1,28 @@
 📋 Notas de Alterações — Pratic RH / Pratic SIP
-Últimos 15 dias (12/11/2026 a 27/11/2026)
+Últimos 15 dias (13/11/2026 a 28/11/2026)
 
-Atualizado em: 27/11/2026 09:01
+Atualizado em: 28/11/2026 09:01
 
 ---
 
 🗂️ APP PRATIC RH  - CLOUD
 
+🔧 Melhoria | OS #20368 — Geração dos S-1200/S-1210 separados quando tem FILIAIS
+
+⚠️ Em desenvolvimento...
+
 🔧 Melhoria | OS #20355 — DIAS CONTRATO/EXPERIÊNCIA - ESTAGIARIO
 
 Preciso dar manutenção nos campos dias de contrato e experiência no Contrato do Estagiário, no Desktop permiti [ 1 - colado-20261124-173824.png ]. Na Nuvem o campo precisa ser liberado (esta fechado apos concluir registro) [ 2 - colado-20261124-173910.png ].
+
+🔧 Melhoria | OS #20345 — Inclusão de dúvidas na IA Pratic
+
+Como vincular um evento na Tabela de Códigos Especiais ?
+Como Cadastrar Calendário?
+Como Cadastrar Tabelas de Impostos?
+Como Cadastrar Beneficiário de Pensão Judicial?
+Como Cadastrar Dependentes?
+Como Cadastrar a Classificação da Causa da Rescisão para o e-Social?
 
 🔧 Melhoria | OS #20341 — Duvidas IA
 
@@ -58,17 +71,5 @@ Na geração o S-1000 (ID = 33588 ) agora a tag <indOptRegEletron> não pode pre
 ⚠️ Em desenvolvimento...
 
 🔧 Melhoria | OS #20301 — Importar Acumulado - Jose Roberto Dias
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20299 — Geração S-2200 e S-2205
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20302 — Erro  - Exclusão Transferencia
-
-⚠️ Em desenvolvimento...
-
-🔧 Melhoria | OS #20282 — Rescisão com Férias do Aviso Indenizado
 
 ⚠️ Em desenvolvimento...
